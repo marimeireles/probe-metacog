@@ -1,0 +1,1319 @@
+{
+  "concepts": [
+    "dog",
+    "cat",
+    "tree",
+    "ocean",
+    "mountain",
+    "rain",
+    "fire",
+    "book",
+    "clock",
+    "bridge",
+    "flower",
+    "river",
+    "star",
+    "moon",
+    "sun",
+    "house",
+    "car",
+    "bird",
+    "fish",
+    "snake",
+    "apple",
+    "bread",
+    "coffee",
+    "music",
+    "piano",
+    "guitar",
+    "dance",
+    "garden",
+    "forest",
+    "beach",
+    "snow",
+    "wind",
+    "stone",
+    "gold",
+    "silver",
+    "knife",
+    "sword",
+    "crown",
+    "castle",
+    "tower",
+    "horse",
+    "sheep",
+    "whale",
+    "eagle",
+    "spider",
+    "candle",
+    "mirror",
+    "window",
+    "cloud",
+    "thunder"
+  ],
+  "layers": [
+    18,
+    25,
+    31,
+    40,
+    47,
+    55
+  ],
+  "all_words_for_baseline": [
+    "dog",
+    "cat",
+    "tree",
+    "ocean",
+    "mountain",
+    "rain",
+    "fire",
+    "book",
+    "clock",
+    "bridge",
+    "flower",
+    "river",
+    "star",
+    "moon",
+    "sun",
+    "house",
+    "car",
+    "bird",
+    "fish",
+    "snake",
+    "apple",
+    "bread",
+    "coffee",
+    "music",
+    "piano",
+    "guitar",
+    "dance",
+    "garden",
+    "forest",
+    "beach",
+    "snow",
+    "wind",
+    "stone",
+    "gold",
+    "silver",
+    "knife",
+    "sword",
+    "crown",
+    "castle",
+    "tower",
+    "horse",
+    "sheep",
+    "whale",
+    "eagle",
+    "spider",
+    "candle",
+    "mirror",
+    "window",
+    "cloud",
+    "thunder"
+  ],
+  "hidden_size": 5376,
+  "model_id": "google/gemma-3-27b-it",
+  "results": {
+    "dog_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 6.120909690856934
+    },
+    "cat_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.593657732009888
+    },
+    "tree_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.573949337005615
+    },
+    "ocean_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.568654537200928
+    },
+    "mountain_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.587700605392456
+    },
+    "rain_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.591867446899414
+    },
+    "fire_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.598379135131836
+    },
+    "book_layer18": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.571994781494141
+    },
+    "clock_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.570119142532349
+    },
+    "bridge_layer18": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.596111536026001
+    },
+    "flower_layer18": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.676326513290405
+    },
+    "river_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.605420351028442
+    },
+    "star_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.570699453353882
+    },
+    "moon_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.553375005722046
+    },
+    "sun_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.57306981086731
+    },
+    "house_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.608494997024536
+    },
+    "car_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.589763164520264
+    },
+    "bird_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.584974050521851
+    },
+    "fish_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.580178499221802
+    },
+    "snake_layer18": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.570328235626221
+    },
+    "apple_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.590440273284912
+    },
+    "bread_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.581861734390259
+    },
+    "coffee_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.567370414733887
+    },
+    "music_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.588566303253174
+    },
+    "piano_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.597963809967041
+    },
+    "guitar_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 5.048810720443726
+    },
+    "dance_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.57872200012207
+    },
+    "garden_layer18": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.593901634216309
+    },
+    "forest_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.566913604736328
+    },
+    "beach_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.566186428070068
+    },
+    "snow_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.572334289550781
+    },
+    "wind_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.574772596359253
+    },
+    "stone_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.5901336669921875
+    },
+    "gold_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.5704505443573
+    },
+    "silver_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.573978662490845
+    },
+    "knife_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.57250189781189
+    },
+    "sword_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.60138463973999
+    },
+    "crown_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.580139398574829
+    },
+    "castle_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.5765955448150635
+    },
+    "tower_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.5674824714660645
+    },
+    "horse_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.582679510116577
+    },
+    "sheep_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.580227375030518
+    },
+    "whale_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.559999465942383
+    },
+    "eagle_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.568004369735718
+    },
+    "spider_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.571559429168701
+    },
+    "candle_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.569849729537964
+    },
+    "mirror_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.597164154052734
+    },
+    "window_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.559467077255249
+    },
+    "cloud_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.594261646270752
+    },
+    "thunder_layer18": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.612755537033081
+    },
+    "dog_layer25": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.580995082855225
+    },
+    "cat_layer25": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.5684943199157715
+    },
+    "tree_layer25": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.574233770370483
+    },
+    "ocean_layer25": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.590352773666382
+    },
+    "mountain_layer25": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.598304510116577
+    },
+    "rain_layer25": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.571494102478027
+    },
+    "fire_layer25": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.5886924266815186
+    },
+    "book_layer25": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.567058801651001
+    },
+    "clock_layer25": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.5739006996154785
+    },
+    "bridge_layer25": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.55987548828125
+    },
+    "flower_layer25": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.562593936920166
+    },
+    "river_layer25": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.558946371078491
+    },
+    "star_layer25": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.5638747215271
+    },
+    "moon_layer25": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.586718320846558
+    },
+    "sun_layer25": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.572821140289307
+    },
+    "house_layer25": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.590100049972534
+    },
+    "car_layer25": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.583372592926025
+    },
+    "bird_layer25": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.5774078369140625
+    },
+    "fish_layer25": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.550979375839233
+    },
+    "snake_layer25": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.564231872558594
+    },
+    "apple_layer25": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.58150839805603
+    },
+    "bread_layer25": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.5741894245147705
+    },
+    "coffee_layer25": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.557833671569824
+    },
+    "music_layer25": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.58048939704895
+    },
+    "piano_layer25": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.601902484893799
+    },
+    "guitar_layer25": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.556195497512817
+    },
+    "dance_layer25": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.6250221729278564
+    },
+    "garden_layer25": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.579671382904053
+    },
+    "forest_layer25": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.5716941356658936
+    },
+    "beach_layer25": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.595278263092041
+    },
+    "snow_layer25": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.590975761413574
+    },
+    "wind_layer25": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.561709642410278
+    },
+    "stone_layer25": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.575483322143555
+    },
+    "gold_layer25": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.55286717414856
+    },
+    "silver_layer25": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.561673879623413
+    },
+    "knife_layer25": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.604348421096802
+    },
+    "sword_layer25": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.574702739715576
+    },
+    "crown_layer25": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.562004089355469
+    },
+    "castle_layer25": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.555941104888916
+    },
+    "tower_layer25": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.5829668045043945
+    },
+    "horse_layer25": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.588112831115723
+    },
+    "sheep_layer25": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.572065114974976
+    },
+    "whale_layer25": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.563824653625488
+    },
+    "eagle_layer25": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.560122013092041
+    },
+    "spider_layer25": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.565266132354736
+    },
+    "candle_layer25": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.576073884963989
+    },
+    "mirror_layer25": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.571299314498901
+    },
+    "window_layer25": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.585324764251709
+    },
+    "cloud_layer25": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.561728239059448
+    },
+    "thunder_layer25": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.562516689300537
+    },
+    "dog_layer31": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.558560132980347
+    },
+    "cat_layer31": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.55837869644165
+    },
+    "tree_layer31": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.551840543746948
+    },
+    "ocean_layer31": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.627917766571045
+    },
+    "mountain_layer31": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.581294536590576
+    },
+    "rain_layer31": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.5998594760894775
+    },
+    "fire_layer31": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.590332508087158
+    },
+    "book_layer31": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.575246334075928
+    },
+    "clock_layer31": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.55500054359436
+    },
+    "bridge_layer31": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.561919927597046
+    },
+    "flower_layer31": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.603424549102783
+    },
+    "river_layer31": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.559935808181763
+    },
+    "star_layer31": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.55851411819458
+    },
+    "moon_layer31": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.622250318527222
+    },
+    "sun_layer31": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.5599524974823
+    },
+    "house_layer31": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.564040660858154
+    },
+    "car_layer31": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.608049392700195
+    },
+    "bird_layer31": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.555421352386475
+    },
+    "fish_layer31": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.556917190551758
+    },
+    "snake_layer31": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.5814902782440186
+    },
+    "apple_layer31": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.5641443729400635
+    },
+    "bread_layer31": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.5603110790252686
+    },
+    "coffee_layer31": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.557052850723267
+    },
+    "music_layer31": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.5591630935668945
+    },
+    "piano_layer31": {
+      "norm_before_normalization": 1.0078125,
+      "time_seconds": 4.555578231811523
+    },
+    "guitar_layer31": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.5519397258758545
+    },
+    "dance_layer31": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.558247804641724
+    },
+    "garden_layer31": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.557005167007446
+    },
+    "forest_layer31": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.554723501205444
+    },
+    "beach_layer31": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.648181676864624
+    },
+    "snow_layer31": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.583445072174072
+    },
+    "wind_layer31": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.562108039855957
+    },
+    "stone_layer31": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.560043811798096
+    },
+    "gold_layer31": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.59139084815979
+    },
+    "silver_layer31": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.561323404312134
+    },
+    "knife_layer31": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.576876878738403
+    },
+    "sword_layer31": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.552892684936523
+    },
+    "crown_layer31": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.5514655113220215
+    },
+    "castle_layer31": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.558386564254761
+    },
+    "tower_layer31": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.559491395950317
+    },
+    "horse_layer31": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.557340860366821
+    },
+    "sheep_layer31": {
+      "norm_before_normalization": 1.0078125,
+      "time_seconds": 4.561260461807251
+    },
+    "whale_layer31": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.588551998138428
+    },
+    "eagle_layer31": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.579662561416626
+    },
+    "spider_layer31": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.552626848220825
+    },
+    "candle_layer31": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.558550119400024
+    },
+    "mirror_layer31": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.5508949756622314
+    },
+    "window_layer31": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.55456018447876
+    },
+    "cloud_layer31": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.568254709243774
+    },
+    "thunder_layer31": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.553891658782959
+    },
+    "dog_layer40": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.609333753585815
+    },
+    "cat_layer40": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.560297012329102
+    },
+    "tree_layer40": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.556851387023926
+    },
+    "ocean_layer40": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.561101675033569
+    },
+    "mountain_layer40": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.557068347930908
+    },
+    "rain_layer40": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.564329624176025
+    },
+    "fire_layer40": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.576038599014282
+    },
+    "book_layer40": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.569204568862915
+    },
+    "clock_layer40": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.559971570968628
+    },
+    "bridge_layer40": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.560497283935547
+    },
+    "flower_layer40": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.556682348251343
+    },
+    "river_layer40": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.554227590560913
+    },
+    "star_layer40": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.556954383850098
+    },
+    "moon_layer40": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.554822683334351
+    },
+    "sun_layer40": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.550724267959595
+    },
+    "house_layer40": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.55324387550354
+    },
+    "car_layer40": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.553034067153931
+    },
+    "bird_layer40": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.577953815460205
+    },
+    "fish_layer40": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.557727336883545
+    },
+    "snake_layer40": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.548481702804565
+    },
+    "apple_layer40": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.575143575668335
+    },
+    "bread_layer40": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.55948543548584
+    },
+    "coffee_layer40": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.558664083480835
+    },
+    "music_layer40": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.555482387542725
+    },
+    "piano_layer40": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.55961275100708
+    },
+    "guitar_layer40": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.56009840965271
+    },
+    "dance_layer40": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.557231426239014
+    },
+    "garden_layer40": {
+      "norm_before_normalization": 1.0078125,
+      "time_seconds": 4.55480694770813
+    },
+    "forest_layer40": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.584901809692383
+    },
+    "beach_layer40": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.570613861083984
+    },
+    "snow_layer40": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.570155382156372
+    },
+    "wind_layer40": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.555821180343628
+    },
+    "stone_layer40": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.553120374679565
+    },
+    "gold_layer40": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.592185020446777
+    },
+    "silver_layer40": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.554929256439209
+    },
+    "knife_layer40": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.560964584350586
+    },
+    "sword_layer40": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.5541229248046875
+    },
+    "crown_layer40": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.571486949920654
+    },
+    "castle_layer40": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.560481786727905
+    },
+    "tower_layer40": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.558274745941162
+    },
+    "horse_layer40": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.556621074676514
+    },
+    "sheep_layer40": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.552466154098511
+    },
+    "whale_layer40": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.553779125213623
+    },
+    "eagle_layer40": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.557446241378784
+    },
+    "spider_layer40": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.567140817642212
+    },
+    "candle_layer40": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.569103240966797
+    },
+    "mirror_layer40": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.567265510559082
+    },
+    "window_layer40": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.562421798706055
+    },
+    "cloud_layer40": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.551103591918945
+    },
+    "thunder_layer40": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.551435232162476
+    },
+    "dog_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.55551290512085
+    },
+    "cat_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.561311483383179
+    },
+    "tree_layer47": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.564882040023804
+    },
+    "ocean_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.554173469543457
+    },
+    "mountain_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.554539680480957
+    },
+    "rain_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.5635411739349365
+    },
+    "fire_layer47": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.556794166564941
+    },
+    "book_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.552737474441528
+    },
+    "clock_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.556292295455933
+    },
+    "bridge_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.564234495162964
+    },
+    "flower_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.57870078086853
+    },
+    "river_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.5612287521362305
+    },
+    "star_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.561936616897583
+    },
+    "moon_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.5569398403167725
+    },
+    "sun_layer47": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.562875747680664
+    },
+    "house_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.554903030395508
+    },
+    "car_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.551873445510864
+    },
+    "bird_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.554504156112671
+    },
+    "fish_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.559869289398193
+    },
+    "snake_layer47": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.555922508239746
+    },
+    "apple_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.5620338916778564
+    },
+    "bread_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.554525852203369
+    },
+    "coffee_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.5582356452941895
+    },
+    "music_layer47": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.580113649368286
+    },
+    "piano_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.5614094734191895
+    },
+    "guitar_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.561198949813843
+    },
+    "dance_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.5529327392578125
+    },
+    "garden_layer47": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.553339719772339
+    },
+    "forest_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.553294897079468
+    },
+    "beach_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.548815011978149
+    },
+    "snow_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.560399293899536
+    },
+    "wind_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.554688453674316
+    },
+    "stone_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.558255672454834
+    },
+    "gold_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.555798053741455
+    },
+    "silver_layer47": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.592676162719727
+    },
+    "knife_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.5582075119018555
+    },
+    "sword_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.556584596633911
+    },
+    "crown_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.577992916107178
+    },
+    "castle_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.55492639541626
+    },
+    "tower_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.548444986343384
+    },
+    "horse_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.556593656539917
+    },
+    "sheep_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.57313871383667
+    },
+    "whale_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.566741704940796
+    },
+    "eagle_layer47": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.556483745574951
+    },
+    "spider_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.558027982711792
+    },
+    "candle_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.550580024719238
+    },
+    "mirror_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.550377607345581
+    },
+    "window_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.555709600448608
+    },
+    "cloud_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.564323425292969
+    },
+    "thunder_layer47": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.558606147766113
+    },
+    "dog_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.573054552078247
+    },
+    "cat_layer55": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.564773321151733
+    },
+    "tree_layer55": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.576430797576904
+    },
+    "ocean_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.560264825820923
+    },
+    "mountain_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.563347816467285
+    },
+    "rain_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.5557169914245605
+    },
+    "fire_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.5573811531066895
+    },
+    "book_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.561817169189453
+    },
+    "clock_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.5533506870269775
+    },
+    "bridge_layer55": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.558132171630859
+    },
+    "flower_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.556875467300415
+    },
+    "river_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.559103012084961
+    },
+    "star_layer55": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.565217018127441
+    },
+    "moon_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.559202194213867
+    },
+    "sun_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.575361490249634
+    },
+    "house_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.55263352394104
+    },
+    "car_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.561933279037476
+    },
+    "bird_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.810454607009888
+    },
+    "fish_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.556328058242798
+    },
+    "snake_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.56034255027771
+    },
+    "apple_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.560363054275513
+    },
+    "bread_layer55": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.558690547943115
+    },
+    "coffee_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.569098234176636
+    },
+    "music_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.567478895187378
+    },
+    "piano_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.557622671127319
+    },
+    "guitar_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.556156635284424
+    },
+    "dance_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.561438798904419
+    },
+    "garden_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.572387456893921
+    },
+    "forest_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.561153888702393
+    },
+    "beach_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.557040691375732
+    },
+    "snow_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.555952548980713
+    },
+    "wind_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.565546751022339
+    },
+    "stone_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.561273574829102
+    },
+    "gold_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.56971549987793
+    },
+    "silver_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.5626842975616455
+    },
+    "knife_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.559182405471802
+    },
+    "sword_layer55": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.588769435882568
+    },
+    "crown_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.55878472328186
+    },
+    "castle_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.557938575744629
+    },
+    "tower_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.552319049835205
+    },
+    "horse_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.561391353607178
+    },
+    "sheep_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.5839362144470215
+    },
+    "whale_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.560497283935547
+    },
+    "eagle_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.563098430633545
+    },
+    "spider_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.560528516769409
+    },
+    "candle_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.571630001068115
+    },
+    "mirror_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.5606772899627686
+    },
+    "window_layer55": {
+      "norm_before_normalization": 0.99609375,
+      "time_seconds": 4.556777238845825
+    },
+    "cloud_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.558757543563843
+    },
+    "thunder_layer55": {
+      "norm_before_normalization": 1.0,
+      "time_seconds": 4.570541143417358
+    }
+  },
+  "total_time_seconds": 1620.549442768097
+}

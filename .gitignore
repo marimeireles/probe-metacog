@@ -6,11 +6,11 @@ __pycache__/
 # Virtual environment
 .venv/
 
-# Results data
-results/
-results_27b/
-results_27b_t1/
-results_t1/
+# Results data — track JSON results, exclude heavy tensors/activations
+results/**/*.pt
+results_27b/**/*.pt
+results_27b_t1/**/*.pt
+results_t1/**/*.pt
 
 # Slurm logs
 slurm/

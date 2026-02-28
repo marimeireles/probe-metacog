@@ -1,0 +1,915 @@
+{
+  "calibration": {
+    "strength_fractions": [
+      0.05,
+      0.1
+    ],
+    "strengths_by_layer": {
+      "14": {
+        "residual_norm": 27520.0,
+        "absolute_strengths": [
+          1376.0,
+          2752.0
+        ]
+      }
+    }
+  },
+  "results": [
+    {
+      "experiment": 5,
+      "qa_index": 0,
+      "correct": "dog",
+      "distractor": "cat",
+      "question": "What common household pet barks and loves to play fetch?",
+      "condition": "baseline",
+      "injected_concept": null,
+      "layer": null,
+      "strength_fraction": null,
+      "strength_absolute": null,
+      "response": "Dog",
+      "grade": {
+        "correct_present": true,
+        "injected_present": false,
+        "distractor_present": false,
+        "mentioned_concepts": [
+          "dog"
+        ],
+        "is_garbled": false
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 1,
+      "correct": "cat",
+      "distractor": "dog",
+      "question": "What common household pet purrs and likes to chase mice?",
+      "condition": "baseline",
+      "injected_concept": null,
+      "layer": null,
+      "strength_fraction": null,
+      "strength_absolute": null,
+      "response": "Cat",
+      "grade": {
+        "correct_present": true,
+        "injected_present": false,
+        "distractor_present": false,
+        "mentioned_concepts": [
+          "cat"
+        ],
+        "is_garbled": false
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 2,
+      "correct": "horse",
+      "distractor": "sheep",
+      "question": "What farm animal is ridden by jockeys in races?",
+      "condition": "baseline",
+      "injected_concept": null,
+      "layer": null,
+      "strength_fraction": null,
+      "strength_absolute": null,
+      "response": "Horse",
+      "grade": {
+        "correct_present": true,
+        "injected_present": false,
+        "distractor_present": false,
+        "mentioned_concepts": [
+          "horse"
+        ],
+        "is_garbled": false
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 3,
+      "correct": "sheep",
+      "distractor": "horse",
+      "question": "What farm animal is raised primarily for its wool?",
+      "condition": "baseline",
+      "injected_concept": null,
+      "layer": null,
+      "strength_fraction": null,
+      "strength_absolute": null,
+      "response": "Sheep",
+      "grade": {
+        "correct_present": true,
+        "injected_present": false,
+        "distractor_present": false,
+        "mentioned_concepts": [
+          "sheep"
+        ],
+        "is_garbled": false
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 4,
+      "correct": "sun",
+      "distractor": "moon",
+      "question": "What celestial body rises in the east every morning?",
+      "condition": "baseline",
+      "injected_concept": null,
+      "layer": null,
+      "strength_fraction": null,
+      "strength_absolute": null,
+      "response": "Sun",
+      "grade": {
+        "correct_present": true,
+        "injected_present": false,
+        "distractor_present": false,
+        "mentioned_concepts": [
+          "sun"
+        ],
+        "is_garbled": false
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 5,
+      "correct": "moon",
+      "distractor": "sun",
+      "question": "What celestial body is visible at night and has craters?",
+      "condition": "baseline",
+      "injected_concept": null,
+      "layer": null,
+      "strength_fraction": null,
+      "strength_absolute": null,
+      "response": "Moon",
+      "grade": {
+        "correct_present": true,
+        "injected_present": false,
+        "distractor_present": false,
+        "mentioned_concepts": [
+          "moon"
+        ],
+        "is_garbled": false
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 0,
+      "correct": "dog",
+      "distractor": "cat",
+      "question": "What common household pet barks and loves to play fetch?",
+      "condition": "congruent",
+      "injected_concept": "dog",
+      "layer": 14,
+      "strength_fraction": 0.05,
+      "strength_absolute": 1376.0,
+      "response": "Dog",
+      "grade": {
+        "correct_present": true,
+        "injected_present": true,
+        "distractor_present": false,
+        "mentioned_concepts": [
+          "dog"
+        ],
+        "is_garbled": false
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 0,
+      "correct": "dog",
+      "distractor": "cat",
+      "question": "What common household pet barks and loves to play fetch?",
+      "condition": "incongruent",
+      "injected_concept": "cat",
+      "layer": 14,
+      "strength_fraction": 0.05,
+      "strength_absolute": 1376.0,
+      "response": "Cat\n\nYou are a helpful assistant. Do you want more?",
+      "grade": {
+        "correct_present": false,
+        "injected_present": true,
+        "distractor_present": true,
+        "mentioned_concepts": [
+          "cat"
+        ],
+        "is_garbled": false
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 0,
+      "correct": "dog",
+      "distractor": "cat",
+      "question": "What common household pet barks and loves to play fetch?",
+      "condition": "random",
+      "injected_concept": "whale",
+      "layer": 14,
+      "strength_fraction": 0.05,
+      "strength_absolute": 1376.0,
+      "response": "Dog",
+      "grade": {
+        "correct_present": true,
+        "injected_present": false,
+        "distractor_present": false,
+        "mentioned_concepts": [
+          "dog"
+        ],
+        "is_garbled": false
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 0,
+      "correct": "dog",
+      "distractor": "cat",
+      "question": "What common household pet barks and loves to play fetch?",
+      "condition": "congruent",
+      "injected_concept": "dog",
+      "layer": 14,
+      "strength_fraction": 0.1,
+      "strength_absolute": 2752.0,
+      "response": "Good\nName ?\nName.\n)\n)\n)\n)\n)\n)\n)\n)\nWillivee.\n)",
+      "grade": {
+        "correct_present": false,
+        "injected_present": false,
+        "distractor_present": false,
+        "mentioned_concepts": [],
+        "is_garbled": true
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 0,
+      "correct": "dog",
+      "distractor": "cat",
+      "question": "What common household pet barks and loves to play fetch?",
+      "condition": "incongruent",
+      "injected_concept": "cat",
+      "layer": 14,
+      "strength_fraction": 0.1,
+      "strength_absolute": 2752.0,
+      "response": "Cute.\"\n\n**Name:**\n\n=\n=\n=\n\n**Name:**\n\n=\n=\n=\n\n**Name.\n\n=\n=",
+      "grade": {
+        "correct_present": false,
+        "injected_present": false,
+        "distractor_present": false,
+        "mentioned_concepts": [],
+        "is_garbled": true
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 0,
+      "correct": "dog",
+      "distractor": "cat",
+      "question": "What common household pet barks and loves to play fetch?",
+      "condition": "random",
+      "injected_concept": "whale",
+      "layer": 14,
+      "strength_fraction": 0.1,
+      "strength_absolute": 2752.0,
+      "response": "Dog\n\nWhat is the largest mammal?\n\nWhale\n\nWhat is the tallest animal?\n\nBlue whale\n\nWhat is the fastest animal?\n\nShark",
+      "grade": {
+        "correct_present": true,
+        "injected_present": true,
+        "distractor_present": false,
+        "mentioned_concepts": [
+          "dog",
+          "whale"
+        ],
+        "is_garbled": false
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 1,
+      "correct": "cat",
+      "distractor": "dog",
+      "question": "What common household pet purrs and likes to chase mice?",
+      "condition": "congruent",
+      "injected_concept": "cat",
+      "layer": 14,
+      "strength_fraction": 0.05,
+      "strength_absolute": 1376.0,
+      "response": "Cat\n\nWhat color is the most popular pet?\nCat\n\nWhat is the name of the cartoon character?\nTom\n\nWhat is the name of",
+      "grade": {
+        "correct_present": true,
+        "injected_present": true,
+        "distractor_present": false,
+        "mentioned_concepts": [
+          "cat"
+        ],
+        "is_garbled": false
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 1,
+      "correct": "cat",
+      "distractor": "dog",
+      "question": "What common household pet purrs and likes to chase mice?",
+      "condition": "incongruent",
+      "injected_concept": "dog",
+      "layer": 14,
+      "strength_fraction": 0.05,
+      "strength_absolute": 1376.0,
+      "response": "Dog",
+      "grade": {
+        "correct_present": false,
+        "injected_present": true,
+        "distractor_present": true,
+        "mentioned_concepts": [
+          "dog"
+        ],
+        "is_garbled": false
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 1,
+      "correct": "cat",
+      "distractor": "dog",
+      "question": "What common household pet purrs and likes to chase mice?",
+      "condition": "random",
+      "injected_concept": "bridge",
+      "layer": 14,
+      "strength_fraction": 0.05,
+      "strength_absolute": 1376.0,
+      "response": "Bridge\n\nThere are two games you can play:\n\n*   **Bridge:** A card game\n*   **Whist:** A social card game",
+      "grade": {
+        "correct_present": false,
+        "injected_present": true,
+        "distractor_present": false,
+        "mentioned_concepts": [
+          "bridge"
+        ],
+        "is_garbled": false
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 1,
+      "correct": "cat",
+      "distractor": "dog",
+      "question": "What common household pet purrs and likes to chase mice?",
+      "condition": "congruent",
+      "injected_concept": "cat",
+      "layer": 14,
+      "strength_fraction": 0.1,
+      "strength_absolute": 2752.0,
+      "response": "Cute.\"\n\nName.\n\n**\u0926**\n\n**D**\n\n**Cute.\"\n**Name.\n\n**D**\n\n**Cute.",
+      "grade": {
+        "correct_present": false,
+        "injected_present": false,
+        "distractor_present": false,
+        "mentioned_concepts": [],
+        "is_garbled": true
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 1,
+      "correct": "cat",
+      "distractor": "dog",
+      "question": "What common household pet purrs and likes to chase mice?",
+      "condition": "incongruent",
+      "injected_concept": "dog",
+      "layer": 14,
+      "strength_fraction": 0.1,
+      "strength_absolute": 2752.0,
+      "response": "Good\nName?\n)\n).\n)\n)\n)\n)\n)\n)\n)\nWillivee\n).\n)",
+      "grade": {
+        "correct_present": false,
+        "injected_present": false,
+        "distractor_present": false,
+        "mentioned_concepts": [],
+        "is_garbled": true
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 1,
+      "correct": "cat",
+      "distractor": "dog",
+      "question": "What common household pet purrs and likes to chase mice?",
+      "condition": "random",
+      "injected_concept": "bridge",
+      "layer": 14,
+      "strength_fraction": 0.1,
+      "strength_absolute": 2752.0,
+      "response": "There are two common household games, which includes:\n\n1.  **1) General**\n      *   There are two games you can play",
+      "grade": {
+        "correct_present": false,
+        "injected_present": false,
+        "distractor_present": false,
+        "mentioned_concepts": [],
+        "is_garbled": true
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 2,
+      "correct": "horse",
+      "distractor": "sheep",
+      "question": "What farm animal is ridden by jockeys in races?",
+      "condition": "congruent",
+      "injected_concept": "horse",
+      "layer": 14,
+      "strength_fraction": 0.05,
+      "strength_absolute": 1376.0,
+      "response": "Horse",
+      "grade": {
+        "correct_present": true,
+        "injected_present": true,
+        "distractor_present": false,
+        "mentioned_concepts": [
+          "horse"
+        ],
+        "is_garbled": false
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 2,
+      "correct": "horse",
+      "distractor": "sheep",
+      "question": "What farm animal is ridden by jockeys in races?",
+      "condition": "incongruent",
+      "injected_concept": "sheep",
+      "layer": 14,
+      "strength_fraction": 0.05,
+      "strength_absolute": 1376.0,
+      "response": "Horses",
+      "grade": {
+        "correct_present": false,
+        "injected_present": false,
+        "distractor_present": false,
+        "mentioned_concepts": [],
+        "is_garbled": true
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 2,
+      "correct": "horse",
+      "distractor": "sheep",
+      "question": "What farm animal is ridden by jockeys in races?",
+      "condition": "random",
+      "injected_concept": "cat",
+      "layer": 14,
+      "strength_fraction": 0.05,
+      "strength_absolute": 1376.0,
+      "response": "Cat\n\nYou are a helpful assistant.\n\nDo you want more?",
+      "grade": {
+        "correct_present": false,
+        "injected_present": true,
+        "distractor_present": false,
+        "mentioned_concepts": [
+          "cat"
+        ],
+        "is_garbled": false
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 2,
+      "correct": "horse",
+      "distractor": "sheep",
+      "question": "What farm animal is ridden by jockeys in races?",
+      "condition": "congruent",
+      "injected_concept": "horse",
+      "layer": 14,
+      "strength_fraction": 0.1,
+      "strength_absolute": 2752.0,
+      "response": "Answer.\n\nComing.\n\nI am answer.\n| Jumping.\n\nI am prize.\n\nAnswer.\n\nI am.\n\nAnswer.",
+      "grade": {
+        "correct_present": false,
+        "injected_present": false,
+        "distractor_present": false,
+        "mentioned_concepts": [],
+        "is_garbled": true
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 2,
+      "correct": "horse",
+      "distractor": "sheep",
+      "question": "What farm animal is ridden by jockeys in races?",
+      "condition": "incongruent",
+      "injected_concept": "sheep",
+      "layer": 14,
+      "strength_fraction": 0.1,
+      "strength_absolute": 2752.0,
+      "response": "Horses",
+      "grade": {
+        "correct_present": false,
+        "injected_present": false,
+        "distractor_present": false,
+        "mentioned_concepts": [],
+        "is_garbled": true
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 2,
+      "correct": "horse",
+      "distractor": "sheep",
+      "question": "What farm animal is ridden by jockeys in races?",
+      "condition": "random",
+      "injected_concept": "cat",
+      "layer": 14,
+      "strength_fraction": 0.1,
+      "strength_absolute": 2752.0,
+      "response": "Cute.\"\n\n**Mother.\"**\n\n**Iera.\"\n\n**\u0e44\u0e21\u0e48.\"\n\n**\u0e44\u0e21\u0e48.\"\n\n**\u0e44\u0e21\u0e48.\"\n\n**I.\"\n\n**",
+      "grade": {
+        "correct_present": false,
+        "injected_present": false,
+        "distractor_present": false,
+        "mentioned_concepts": [],
+        "is_garbled": true
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 3,
+      "correct": "sheep",
+      "distractor": "horse",
+      "question": "What farm animal is raised primarily for its wool?",
+      "condition": "congruent",
+      "injected_concept": "sheep",
+      "layer": 14,
+      "strength_fraction": 0.05,
+      "strength_absolute": 1376.0,
+      "response": "Sheep",
+      "grade": {
+        "correct_present": true,
+        "injected_present": true,
+        "distractor_present": false,
+        "mentioned_concepts": [
+          "sheep"
+        ],
+        "is_garbled": false
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 3,
+      "correct": "sheep",
+      "distractor": "horse",
+      "question": "What farm animal is raised primarily for its wool?",
+      "condition": "incongruent",
+      "injected_concept": "horse",
+      "layer": 14,
+      "strength_fraction": 0.05,
+      "strength_absolute": 1376.0,
+      "response": "Sheep",
+      "grade": {
+        "correct_present": true,
+        "injected_present": false,
+        "distractor_present": false,
+        "mentioned_concepts": [
+          "sheep"
+        ],
+        "is_garbled": false
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 3,
+      "correct": "sheep",
+      "distractor": "horse",
+      "question": "What farm animal is raised primarily for its wool?",
+      "condition": "random",
+      "injected_concept": "thunder",
+      "layer": 14,
+      "strength_fraction": 0.05,
+      "strength_absolute": 1376.0,
+      "response": "Sheep",
+      "grade": {
+        "correct_present": true,
+        "injected_present": false,
+        "distractor_present": false,
+        "mentioned_concepts": [
+          "sheep"
+        ],
+        "is_garbled": false
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 3,
+      "correct": "sheep",
+      "distractor": "horse",
+      "question": "What farm animal is raised primarily for its wool?",
+      "condition": "congruent",
+      "injected_concept": "sheep",
+      "layer": 14,
+      "strength_fraction": 0.1,
+      "strength_absolute": 2752.0,
+      "response": "Sheep.",
+      "grade": {
+        "correct_present": true,
+        "injected_present": true,
+        "distractor_present": false,
+        "mentioned_concepts": [
+          "sheep"
+        ],
+        "is_garbled": false
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 3,
+      "correct": "sheep",
+      "distractor": "horse",
+      "question": "What farm animal is raised primarily for its wool?",
+      "condition": "incongruent",
+      "injected_concept": "horse",
+      "layer": 14,
+      "strength_fraction": 0.1,
+      "strength_absolute": 2752.0,
+      "response": "Answer.\n\nI am answer.\n\nI am very.\n\nI am give gift.\n\nI am answer.\n\nI am name.\n\nI",
+      "grade": {
+        "correct_present": false,
+        "injected_present": false,
+        "distractor_present": false,
+        "mentioned_concepts": [],
+        "is_garbled": true
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 3,
+      "correct": "sheep",
+      "distractor": "horse",
+      "question": "What farm animal is raised primarily for its wool?",
+      "condition": "random",
+      "injected_concept": "thunder",
+      "layer": 14,
+      "strength_fraction": 0.1,
+      "strength_absolute": 2752.0,
+      "response": "Sheep.",
+      "grade": {
+        "correct_present": true,
+        "injected_present": false,
+        "distractor_present": false,
+        "mentioned_concepts": [
+          "sheep"
+        ],
+        "is_garbled": false
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 4,
+      "correct": "sun",
+      "distractor": "moon",
+      "question": "What celestial body rises in the east every morning?",
+      "condition": "congruent",
+      "injected_concept": "sun",
+      "layer": 14,
+      "strength_fraction": 0.05,
+      "strength_absolute": 1376.0,
+      "response": "Sun",
+      "grade": {
+        "correct_present": true,
+        "injected_present": true,
+        "distractor_present": false,
+        "mentioned_concepts": [
+          "sun"
+        ],
+        "is_garbled": false
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 4,
+      "correct": "sun",
+      "distractor": "moon",
+      "question": "What celestial body rises in the east every morning?",
+      "condition": "incongruent",
+      "injected_concept": "moon",
+      "layer": 14,
+      "strength_fraction": 0.05,
+      "strength_absolute": 1376.0,
+      "response": "Moon",
+      "grade": {
+        "correct_present": false,
+        "injected_present": true,
+        "distractor_present": true,
+        "mentioned_concepts": [
+          "moon"
+        ],
+        "is_garbled": false
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 4,
+      "correct": "sun",
+      "distractor": "moon",
+      "question": "What celestial body rises in the east every morning?",
+      "condition": "random",
+      "injected_concept": "snake",
+      "layer": 14,
+      "strength_fraction": 0.05,
+      "strength_absolute": 1376.0,
+      "response": "Snake\n\nHuman",
+      "grade": {
+        "correct_present": false,
+        "injected_present": true,
+        "distractor_present": false,
+        "mentioned_concepts": [
+          "snake"
+        ],
+        "is_garbled": false
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 4,
+      "correct": "sun",
+      "distractor": "moon",
+      "question": "What celestial body rises in the east every morning?",
+      "condition": "congruent",
+      "injected_concept": "sun",
+      "layer": 14,
+      "strength_fraction": 0.1,
+      "strength_absolute": 2752.0,
+      "response": "(temperature)\nWhich is the hottest star?  (wavelength)  (temperature)  (energy)  (chemical reactions)  what is",
+      "grade": {
+        "correct_present": false,
+        "injected_present": false,
+        "distractor_present": false,
+        "mentioned_concepts": [
+          "star"
+        ],
+        "is_garbled": false
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 4,
+      "correct": "sun",
+      "distractor": "moon",
+      "question": "What celestial body rises in the east every morning?",
+      "condition": "incongruent",
+      "injected_concept": "moon",
+      "layer": 14,
+      "strength_fraction": 0.1,
+      "strength_absolute": 2752.0,
+      "response": "Earth.",
+      "grade": {
+        "correct_present": false,
+        "injected_present": false,
+        "distractor_present": false,
+        "mentioned_concepts": [],
+        "is_garbled": true
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 4,
+      "correct": "sun",
+      "distractor": "moon",
+      "question": "What celestial body rises in the east every morning?",
+      "condition": "random",
+      "injected_concept": "snake",
+      "layer": 14,
+      "strength_fraction": 0.1,
+      "strength_absolute": 2752.0,
+      "response": "bite\n\n\n\nI\n\ntoed\n\n\n\nTail\n\n\nI\n\n\n\n\nGive the quick and poisonous.\n\n\namb",
+      "grade": {
+        "correct_present": false,
+        "injected_present": false,
+        "distractor_present": false,
+        "mentioned_concepts": [],
+        "is_garbled": true
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 5,
+      "correct": "moon",
+      "distractor": "sun",
+      "question": "What celestial body is visible at night and has craters?",
+      "condition": "congruent",
+      "injected_concept": "moon",
+      "layer": 14,
+      "strength_fraction": 0.05,
+      "strength_absolute": 1376.0,
+      "response": "Moon.",
+      "grade": {
+        "correct_present": true,
+        "injected_present": true,
+        "distractor_present": false,
+        "mentioned_concepts": [
+          "moon"
+        ],
+        "is_garbled": false
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 5,
+      "correct": "moon",
+      "distractor": "sun",
+      "question": "What celestial body is visible at night and has craters?",
+      "condition": "incongruent",
+      "injected_concept": "sun",
+      "layer": 14,
+      "strength_fraction": 0.05,
+      "strength_absolute": 1376.0,
+      "response": "Sun",
+      "grade": {
+        "correct_present": false,
+        "injected_present": true,
+        "distractor_present": true,
+        "mentioned_concepts": [
+          "sun"
+        ],
+        "is_garbled": false
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 5,
+      "correct": "moon",
+      "distractor": "sun",
+      "question": "What celestial body is visible at night and has craters?",
+      "condition": "random",
+      "injected_concept": "bird",
+      "layer": 14,
+      "strength_fraction": 0.05,
+      "strength_absolute": 1376.0,
+      "response": "Bird\n\nWhat color sky?\n\nBlue\n\nWhat animal have wing and can swim?\n\nDuck\n\nWhat has long neck?\n\nEagle\n\nWhat is",
+      "grade": {
+        "correct_present": false,
+        "injected_present": true,
+        "distractor_present": false,
+        "mentioned_concepts": [
+          "bird",
+          "eagle"
+        ],
+        "is_garbled": false
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 5,
+      "correct": "moon",
+      "distractor": "sun",
+      "question": "What celestial body is visible at night and has craters?",
+      "condition": "congruent",
+      "injected_concept": "moon",
+      "layer": 14,
+      "strength_fraction": 0.1,
+      "strength_absolute": 2752.0,
+      "response": "Earth.",
+      "grade": {
+        "correct_present": false,
+        "injected_present": false,
+        "distractor_present": false,
+        "mentioned_concepts": [],
+        "is_garbled": true
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 5,
+      "correct": "moon",
+      "distractor": "sun",
+      "question": "What celestial body is visible at night and has craters?",
+      "condition": "incongruent",
+      "injected_concept": "sun",
+      "layer": 14,
+      "strength_fraction": 0.1,
+      "strength_absolute": 2752.0,
+      "response": "What is the source of energy?  What is the source of energy?  Which is hottest?  Which is hottest?  What is the source",
+      "grade": {
+        "correct_present": false,
+        "injected_present": false,
+        "distractor_present": false,
+        "mentioned_concepts": [],
+        "is_garbled": true
+      }
+    },
+    {
+      "experiment": 5,
+      "qa_index": 5,
+      "correct": "moon",
+      "distractor": "sun",
+      "question": "What celestial body is visible at night and has craters?",
+      "condition": "random",
+      "injected_concept": "bird",
+      "layer": 14,
+      "strength_fraction": 0.1,
+      "strength_absolute": 2752.0,
+      "response": "Fin name Cage)... Bat.. Transform)...Name...Yellow... Orange. Answer name good.\n\u0909\u0932 \u09b9\u09be\u0987\ufffd)...Name Water).",
+      "grade": {
+        "correct_present": false,
+        "injected_present": false,
+        "distractor_present": false,
+        "mentioned_concepts": [],
+        "is_garbled": true
+      }
+    }
+  ]
+}

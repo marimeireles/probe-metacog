@@ -1,0 +1,610 @@
+{
+  "n_trials": 18,
+  "n_unique_features_seen": 352,
+  "n_top_by_variance": 200,
+  "n_universal": 15,
+  "n_concept_specific": 142,
+  "n_hit_predictive": 149,
+  "hit_rate": 0.4444444444444444,
+  "universal_features": [
+    {
+      "feature_id": 7344,
+      "mean_delta": 7.497606065538195,
+      "frac_concepts_positive": 1.0
+    },
+    {
+      "feature_id": 16681,
+      "mean_delta": 8.055257161458334,
+      "frac_concepts_positive": 1.0
+    },
+    {
+      "feature_id": 2758,
+      "mean_delta": 9.136940850151909,
+      "frac_concepts_positive": 1.0
+    },
+    {
+      "feature_id": 748,
+      "mean_delta": 11.075337727864584,
+      "frac_concepts_positive": 1.0
+    },
+    {
+      "feature_id": 2446,
+      "mean_delta": 9.195220947265625,
+      "frac_concepts_positive": 1.0
+    },
+    {
+      "feature_id": 5899,
+      "mean_delta": 9.448893229166666,
+      "frac_concepts_positive": 1.0
+    },
+    {
+      "feature_id": 2095,
+      "mean_delta": 16.76860894097222,
+      "frac_concepts_positive": 1.0
+    },
+    {
+      "feature_id": 323,
+      "mean_delta": 16.448598225911457,
+      "frac_concepts_positive": 1.0
+    },
+    {
+      "feature_id": 5007,
+      "mean_delta": 19.316952175564236,
+      "frac_concepts_positive": 1.0
+    },
+    {
+      "feature_id": 636,
+      "mean_delta": 17.789693196614582,
+      "frac_concepts_positive": 1.0
+    },
+    {
+      "feature_id": 638,
+      "mean_delta": 29.32595486111111,
+      "frac_concepts_positive": 1.0
+    },
+    {
+      "feature_id": 104,
+      "mean_delta": 45.05761379665799,
+      "frac_concepts_positive": 1.0
+    },
+    {
+      "feature_id": 397,
+      "mean_delta": 37.702365451388886,
+      "frac_concepts_positive": 1.0
+    },
+    {
+      "feature_id": 147,
+      "mean_delta": 63.79222276475694,
+      "frac_concepts_positive": 1.0
+    },
+    {
+      "feature_id": 348,
+      "mean_delta": 255.52408854166666,
+      "frac_concepts_positive": 1.0
+    }
+  ],
+  "concept_specific_features": [
+    {
+      "feature_id": 166,
+      "mean_delta": 0.0,
+      "top_concepts": [
+        {
+          "concept": "guitar",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "rain",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "tree",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 167,
+      "mean_delta": 0.0,
+      "top_concepts": [
+        {
+          "concept": "guitar",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "rain",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "tree",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 168,
+      "mean_delta": 0.0,
+      "top_concepts": [
+        {
+          "concept": "guitar",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "rain",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "tree",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 169,
+      "mean_delta": 0.0,
+      "top_concepts": [
+        {
+          "concept": "guitar",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "rain",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "tree",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 170,
+      "mean_delta": 0.0,
+      "top_concepts": [
+        {
+          "concept": "guitar",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "rain",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "tree",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 171,
+      "mean_delta": 0.0,
+      "top_concepts": [
+        {
+          "concept": "guitar",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "rain",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "tree",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 172,
+      "mean_delta": 0.0,
+      "top_concepts": [
+        {
+          "concept": "guitar",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "rain",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "tree",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 173,
+      "mean_delta": 0.0,
+      "top_concepts": [
+        {
+          "concept": "guitar",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "rain",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "tree",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 2,
+      "mean_delta": 0.0,
+      "top_concepts": [
+        {
+          "concept": "guitar",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "rain",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "tree",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 3,
+      "mean_delta": 0.0,
+      "top_concepts": [
+        {
+          "concept": "guitar",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "rain",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "tree",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 5,
+      "mean_delta": 0.0,
+      "top_concepts": [
+        {
+          "concept": "guitar",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "rain",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "tree",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 4,
+      "mean_delta": 0.0,
+      "top_concepts": [
+        {
+          "concept": "guitar",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "rain",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "tree",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 0,
+      "mean_delta": 0.0,
+      "top_concepts": [
+        {
+          "concept": "guitar",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "rain",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "tree",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 1,
+      "mean_delta": 0.0,
+      "top_concepts": [
+        {
+          "concept": "guitar",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "rain",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "tree",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 15,
+      "mean_delta": 0.0,
+      "top_concepts": [
+        {
+          "concept": "guitar",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "rain",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "tree",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 181,
+      "mean_delta": 0.0,
+      "top_concepts": [
+        {
+          "concept": "guitar",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "rain",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "tree",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 182,
+      "mean_delta": 0.0,
+      "top_concepts": [
+        {
+          "concept": "guitar",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "rain",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "tree",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 183,
+      "mean_delta": 0.0,
+      "top_concepts": [
+        {
+          "concept": "guitar",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "rain",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "tree",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 184,
+      "mean_delta": 0.0,
+      "top_concepts": [
+        {
+          "concept": "guitar",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "rain",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "tree",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 10,
+      "mean_delta": 0.0,
+      "top_concepts": [
+        {
+          "concept": "guitar",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "rain",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "tree",
+          "mean_delta": 0.0
+        }
+      ]
+    }
+  ],
+  "hit_predictive_features": [
+    {
+      "feature_id": 104,
+      "cohens_d": 2.49829115131065,
+      "p_value": 0.00015176518122322644,
+      "mean_hit": 101.37963104248047,
+      "mean_miss": 0.0,
+      "p_fdr": 0.02261301200226074
+    },
+    {
+      "feature_id": 147,
+      "cohens_d": 2.3150423171174017,
+      "p_value": 0.0003176664219632911,
+      "mean_hit": 143.53250122070312,
+      "mean_miss": 0.0,
+      "p_fdr": 0.02366614843626519
+    },
+    {
+      "feature_id": 254,
+      "cohens_d": -1.9194352062153008,
+      "p_value": 0.0016226984733045604,
+      "mean_hit": -121.84814453125,
+      "mean_miss": 0.0,
+      "p_fdr": 0.08059402417412649
+    },
+    {
+      "feature_id": 348,
+      "cohens_d": -1.6308247155175026,
+      "p_value": 0.004899409098486342,
+      "mean_hit": 0.0,
+      "mean_miss": 459.943359375,
+      "p_fdr": 0.18250298891861624
+    },
+    {
+      "feature_id": 39,
+      "cohens_d": 1.5113900679149852,
+      "p_value": 0.008831345265218858,
+      "mean_hit": 107.17727661132812,
+      "mean_miss": 0.0,
+      "p_fdr": 0.263174088903522
+    },
+    {
+      "feature_id": 2996,
+      "cohens_d": 1.5083774609141178,
+      "p_value": 0.008941355167854588,
+      "mean_hit": 62.043312072753906,
+      "mean_miss": 0.0,
+      "p_fdr": 0.2220436533350556
+    },
+    {
+      "feature_id": 568,
+      "cohens_d": 1.496573057419022,
+      "p_value": 0.009385450655115325,
+      "mean_hit": 111.64987182617188,
+      "mean_miss": 0.0,
+      "p_fdr": 0.1997760210874548
+    },
+    {
+      "feature_id": 731,
+      "cohens_d": 1.4127089032769395,
+      "p_value": 0.0132201868903826,
+      "mean_hit": 110.17877960205078,
+      "mean_miss": 0.0,
+      "p_fdr": 0.2462259808333759
+    },
+    {
+      "feature_id": 1787,
+      "cohens_d": -1.378669288789961,
+      "p_value": 0.014454959861853875,
+      "mean_hit": -10.35272216796875,
+      "mean_miss": 16.187841796875,
+      "p_fdr": 0.2393098910462475
+    },
+    {
+      "feature_id": 424,
+      "cohens_d": -1.3497334477135163,
+      "p_value": 0.016021898436656388,
+      "mean_hit": -10.073394775390625,
+      "mean_miss": 26.04361572265625,
+      "p_fdr": 0.23872628670618018
+    },
+    {
+      "feature_id": 3435,
+      "cohens_d": -1.3491870189816673,
+      "p_value": 0.016156451418642814,
+      "mean_hit": -6.126953125,
+      "mean_miss": 12.2876953125,
+      "p_fdr": 0.21884647830707085
+    },
+    {
+      "feature_id": 2758,
+      "cohens_d": 1.3156834321678073,
+      "p_value": 0.019555537661899096,
+      "mean_hit": 20.558116912841797,
+      "mean_miss": 0.0,
+      "p_fdr": 0.2428145926352471
+    },
+    {
+      "feature_id": 636,
+      "cohens_d": 1.2908489361012117,
+      "p_value": 0.02159497176755277,
+      "mean_hit": 40.02680969238281,
+      "mean_miss": 0.0,
+      "p_fdr": 0.22983219952609732
+    },
+    {
+      "feature_id": 17814,
+      "cohens_d": -1.277901377300508,
+      "p_value": 0.021309545496260244,
+      "mean_hit": -3.786834716796875,
+      "mean_miss": 13.77069091796875,
+      "p_fdr": 0.2442401753032905
+    },
+    {
+      "feature_id": 1571,
+      "cohens_d": -1.2724211817418443,
+      "p_value": 0.02196003726794474,
+      "mean_hit": -27.9937744140625,
+      "mean_miss": 61.339990234375,
+      "p_fdr": 0.21813637019491774
+    },
+    {
+      "feature_id": 2458,
+      "cohens_d": -1.2456685222173283,
+      "p_value": 0.024336588237203582,
+      "mean_hit": -15.80877685546875,
+      "mean_miss": 43.919384765625,
+      "p_fdr": 0.22663447795895836
+    },
+    {
+      "feature_id": 3006,
+      "cohens_d": -1.2036708388268256,
+      "p_value": 0.028916086120603614,
+      "mean_hit": -7.286033630371094,
+      "mean_miss": 14.492852783203125,
+      "p_fdr": 0.25344099011587873
+    },
+    {
+      "feature_id": 4254,
+      "cohens_d": -1.1923024165142573,
+      "p_value": 0.03153076117912641,
+      "mean_hit": -75.42863464355469,
+      "mean_miss": 36.894189453125,
+      "p_fdr": 0.24726754819420188
+    },
+    {
+      "feature_id": 8078,
+      "cohens_d": -1.1861770299336154,
+      "p_value": 0.030596732421768292,
+      "mean_hit": -0.9623184204101562,
+      "mean_miss": 7.931689453125,
+      "p_fdr": 0.2532729517135264
+    },
+    {
+      "feature_id": 767,
+      "cohens_d": -1.1826589012086777,
+      "p_value": 0.03242111212543125,
+      "mean_hit": -25.385528564453125,
+      "mean_miss": 16.04891357421875,
+      "p_fdr": 0.24153728533446284
+    }
+  ]
+}

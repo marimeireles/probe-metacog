@@ -1,0 +1,423 @@
+{
+  "top_layers": [
+    {
+      "layer": 32,
+      "mean_abs_score": 6.062432183159722,
+      "max_abs_score": 21.875,
+      "n_trials": 9
+    },
+    {
+      "layer": 31,
+      "mean_abs_score": 5.790147569444445,
+      "max_abs_score": 24.25,
+      "n_trials": 9
+    },
+    {
+      "layer": 30,
+      "mean_abs_score": 5.520833333333333,
+      "max_abs_score": 24.25,
+      "n_trials": 9
+    },
+    {
+      "layer": 24,
+      "mean_abs_score": 5.085177951388889,
+      "max_abs_score": 23.25,
+      "n_trials": 9
+    },
+    {
+      "layer": 22,
+      "mean_abs_score": 4.754909939236111,
+      "max_abs_score": 17.75,
+      "n_trials": 9
+    },
+    {
+      "layer": 23,
+      "mean_abs_score": 4.694064670138889,
+      "max_abs_score": 20.625,
+      "n_trials": 9
+    },
+    {
+      "layer": 29,
+      "mean_abs_score": 4.593967013888889,
+      "max_abs_score": 18.25,
+      "n_trials": 9
+    },
+    {
+      "layer": 28,
+      "mean_abs_score": 4.573133680555555,
+      "max_abs_score": 19.0,
+      "n_trials": 9
+    },
+    {
+      "layer": 27,
+      "mean_abs_score": 4.562717013888889,
+      "max_abs_score": 19.75,
+      "n_trials": 9
+    },
+    {
+      "layer": 25,
+      "mean_abs_score": 4.494140625,
+      "max_abs_score": 23.0,
+      "n_trials": 9
+    }
+  ],
+  "layer_summary": {
+    "0": {
+      "mean_abs_score": 0.0,
+      "max_abs_score": 0.0,
+      "n_trials": 9
+    },
+    "1": {
+      "mean_abs_score": 0.0,
+      "max_abs_score": 0.0,
+      "n_trials": 9
+    },
+    "2": {
+      "mean_abs_score": 0.0,
+      "max_abs_score": 0.0,
+      "n_trials": 9
+    },
+    "3": {
+      "mean_abs_score": 0.0,
+      "max_abs_score": 0.0,
+      "n_trials": 9
+    },
+    "4": {
+      "mean_abs_score": 0.0,
+      "max_abs_score": 0.0,
+      "n_trials": 9
+    },
+    "5": {
+      "mean_abs_score": 0.0,
+      "max_abs_score": 0.0,
+      "n_trials": 9
+    },
+    "6": {
+      "mean_abs_score": 0.0,
+      "max_abs_score": 0.0,
+      "n_trials": 9
+    },
+    "7": {
+      "mean_abs_score": 0.0,
+      "max_abs_score": 0.0,
+      "n_trials": 9
+    },
+    "8": {
+      "mean_abs_score": 0.0,
+      "max_abs_score": 0.0,
+      "n_trials": 9
+    },
+    "9": {
+      "mean_abs_score": 0.0,
+      "max_abs_score": 0.0,
+      "n_trials": 9
+    },
+    "10": {
+      "mean_abs_score": 0.0,
+      "max_abs_score": 0.0,
+      "n_trials": 9
+    },
+    "11": {
+      "mean_abs_score": 0.0,
+      "max_abs_score": 0.0,
+      "n_trials": 9
+    },
+    "12": {
+      "mean_abs_score": 0.0,
+      "max_abs_score": 0.0,
+      "n_trials": 9
+    },
+    "13": {
+      "mean_abs_score": 0.0,
+      "max_abs_score": 0.0,
+      "n_trials": 9
+    },
+    "14": {
+      "mean_abs_score": 3.6480034722222223,
+      "max_abs_score": 31.125,
+      "n_trials": 9
+    },
+    "15": {
+      "mean_abs_score": 3.0121527777777777,
+      "max_abs_score": 24.75,
+      "n_trials": 9
+    },
+    "16": {
+      "mean_abs_score": 2.3729383680555554,
+      "max_abs_score": 19.375,
+      "n_trials": 9
+    },
+    "17": {
+      "mean_abs_score": 0.7463107638888888,
+      "max_abs_score": 5.0,
+      "n_trials": 9
+    },
+    "18": {
+      "mean_abs_score": 1.4270833333333333,
+      "max_abs_score": 11.0625,
+      "n_trials": 9
+    },
+    "19": {
+      "mean_abs_score": 1.6402452256944444,
+      "max_abs_score": 11.25,
+      "n_trials": 9
+    },
+    "20": {
+      "mean_abs_score": 1.4673394097222223,
+      "max_abs_score": 12.1875,
+      "n_trials": 9
+    },
+    "21": {
+      "mean_abs_score": 1.7702907986111112,
+      "max_abs_score": 11.6875,
+      "n_trials": 9
+    },
+    "22": {
+      "mean_abs_score": 4.754909939236111,
+      "max_abs_score": 17.75,
+      "n_trials": 9
+    },
+    "23": {
+      "mean_abs_score": 4.694064670138889,
+      "max_abs_score": 20.625,
+      "n_trials": 9
+    },
+    "24": {
+      "mean_abs_score": 5.085177951388889,
+      "max_abs_score": 23.25,
+      "n_trials": 9
+    },
+    "25": {
+      "mean_abs_score": 4.494140625,
+      "max_abs_score": 23.0,
+      "n_trials": 9
+    },
+    "26": {
+      "mean_abs_score": 4.403211805555555,
+      "max_abs_score": 16.375,
+      "n_trials": 9
+    },
+    "27": {
+      "mean_abs_score": 4.562717013888889,
+      "max_abs_score": 19.75,
+      "n_trials": 9
+    },
+    "28": {
+      "mean_abs_score": 4.573133680555555,
+      "max_abs_score": 19.0,
+      "n_trials": 9
+    },
+    "29": {
+      "mean_abs_score": 4.593967013888889,
+      "max_abs_score": 18.25,
+      "n_trials": 9
+    },
+    "30": {
+      "mean_abs_score": 5.520833333333333,
+      "max_abs_score": 24.25,
+      "n_trials": 9
+    },
+    "31": {
+      "mean_abs_score": 5.790147569444445,
+      "max_abs_score": 24.25,
+      "n_trials": 9
+    },
+    "32": {
+      "mean_abs_score": 6.062432183159722,
+      "max_abs_score": 21.875,
+      "n_trials": 9
+    },
+    "33": {
+      "mean_abs_score": 4.178358289930555,
+      "max_abs_score": 16.25,
+      "n_trials": 9
+    }
+  },
+  "top_heads_by_layer": {
+    "15": [
+      {
+        "head": 4,
+        "mean_abs_score": 3.6783854166666665,
+        "max_abs_score": 8.9375
+      },
+      {
+        "head": 7,
+        "mean_abs_score": 3.453125,
+        "max_abs_score": 8.3125
+      },
+      {
+        "head": 0,
+        "mean_abs_score": 2.390625,
+        "max_abs_score": 6.0625
+      },
+      {
+        "head": 6,
+        "mean_abs_score": 2.07861328125,
+        "max_abs_score": 4.1875
+      },
+      {
+        "head": 5,
+        "mean_abs_score": 1.7936197916666667,
+        "max_abs_score": 3.015625
+      }
+    ],
+    "23": [
+      {
+        "head": 2,
+        "mean_abs_score": 0.3992513020833333,
+        "max_abs_score": 0.640625
+      },
+      {
+        "head": 4,
+        "mean_abs_score": 0.24055989583333334,
+        "max_abs_score": 0.38671875
+      },
+      {
+        "head": 3,
+        "mean_abs_score": 0.2044677734375,
+        "max_abs_score": 0.37890625
+      },
+      {
+        "head": 6,
+        "mean_abs_score": 0.138427734375,
+        "max_abs_score": 0.36328125
+      },
+      {
+        "head": 1,
+        "mean_abs_score": 0.13118489583333334,
+        "max_abs_score": 0.1806640625
+      }
+    ],
+    "27": [
+      {
+        "head": 1,
+        "mean_abs_score": 0.10367838541666667,
+        "max_abs_score": 0.125
+      },
+      {
+        "head": 7,
+        "mean_abs_score": 0.09330240885416667,
+        "max_abs_score": 0.2255859375
+      },
+      {
+        "head": 6,
+        "mean_abs_score": 0.09322102864583333,
+        "max_abs_score": 0.1298828125
+      },
+      {
+        "head": 2,
+        "mean_abs_score": 0.06844075520833333,
+        "max_abs_score": 0.09619140625
+      },
+      {
+        "head": 3,
+        "mean_abs_score": 0.046549479166666664,
+        "max_abs_score": 0.060791015625
+      }
+    ]
+  },
+  "head_summary": {
+    "15": {
+      "0": {
+        "mean_abs_score": 2.390625,
+        "max_abs_score": 6.0625
+      },
+      "1": {
+        "mean_abs_score": 0.9811197916666666,
+        "max_abs_score": 1.4765625
+      },
+      "2": {
+        "mean_abs_score": 1.6543782552083333,
+        "max_abs_score": 3.96875
+      },
+      "3": {
+        "mean_abs_score": 0.7763671875,
+        "max_abs_score": 1.2421875
+      },
+      "4": {
+        "mean_abs_score": 3.6783854166666665,
+        "max_abs_score": 8.9375
+      },
+      "5": {
+        "mean_abs_score": 1.7936197916666667,
+        "max_abs_score": 3.015625
+      },
+      "6": {
+        "mean_abs_score": 2.07861328125,
+        "max_abs_score": 4.1875
+      },
+      "7": {
+        "mean_abs_score": 3.453125,
+        "max_abs_score": 8.3125
+      }
+    },
+    "23": {
+      "0": {
+        "mean_abs_score": 0.02252197265625,
+        "max_abs_score": 0.0478515625
+      },
+      "1": {
+        "mean_abs_score": 0.13118489583333334,
+        "max_abs_score": 0.1806640625
+      },
+      "2": {
+        "mean_abs_score": 0.3992513020833333,
+        "max_abs_score": 0.640625
+      },
+      "3": {
+        "mean_abs_score": 0.2044677734375,
+        "max_abs_score": 0.37890625
+      },
+      "4": {
+        "mean_abs_score": 0.24055989583333334,
+        "max_abs_score": 0.38671875
+      },
+      "5": {
+        "mean_abs_score": 0.10205078125,
+        "max_abs_score": 0.1787109375
+      },
+      "6": {
+        "mean_abs_score": 0.138427734375,
+        "max_abs_score": 0.36328125
+      },
+      "7": {
+        "mean_abs_score": 0.0836181640625,
+        "max_abs_score": 0.1181640625
+      }
+    },
+    "27": {
+      "0": {
+        "mean_abs_score": 0.0291748046875,
+        "max_abs_score": 0.043701171875
+      },
+      "1": {
+        "mean_abs_score": 0.10367838541666667,
+        "max_abs_score": 0.125
+      },
+      "2": {
+        "mean_abs_score": 0.06844075520833333,
+        "max_abs_score": 0.09619140625
+      },
+      "3": {
+        "mean_abs_score": 0.046549479166666664,
+        "max_abs_score": 0.060791015625
+      },
+      "4": {
+        "mean_abs_score": 0.0203704833984375,
+        "max_abs_score": 0.031494140625
+      },
+      "5": {
+        "mean_abs_score": 0.045328776041666664,
+        "max_abs_score": 0.0498046875
+      },
+      "6": {
+        "mean_abs_score": 0.09322102864583333,
+        "max_abs_score": 0.1298828125
+      },
+      "7": {
+        "mean_abs_score": 0.09330240885416667,
+        "max_abs_score": 0.2255859375
+      }
+    }
+  }
+}

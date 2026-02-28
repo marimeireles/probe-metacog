@@ -1,0 +1,540 @@
+{
+  "n_trials": 300,
+  "n_unique_features_seen": 523,
+  "n_top_by_variance": 200,
+  "n_universal": 1,
+  "n_concept_specific": 138,
+  "n_hit_predictive": 83,
+  "hit_rate": 0.23333333333333334,
+  "universal_features": [
+    {
+      "feature_id": 397,
+      "mean_delta": 29.641829427083334,
+      "frac_concepts_positive": 0.9
+    }
+  ],
+  "concept_specific_features": [
+    {
+      "feature_id": 12628,
+      "mean_delta": 6.405977884928386,
+      "top_concepts": [
+        {
+          "concept": "beach",
+          "mean_delta": 64.05977884928386
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "cat",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 13379,
+      "mean_delta": 6.448946634928386,
+      "top_concepts": [
+        {
+          "concept": "beach",
+          "mean_delta": 64.48946634928386
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "cat",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 3163,
+      "mean_delta": 6.475731913248698,
+      "top_concepts": [
+        {
+          "concept": "rain",
+          "mean_delta": 64.75731913248698
+        },
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 12863,
+      "mean_delta": 6.482909138997396,
+      "top_concepts": [
+        {
+          "concept": "guitar",
+          "mean_delta": 64.82909138997395
+        },
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 2265,
+      "mean_delta": 9.333880615234374,
+      "top_concepts": [
+        {
+          "concept": "tree",
+          "mean_delta": 50.65701802571615
+        },
+        {
+          "concept": "cat",
+          "mean_delta": 42.6817881266276
+        },
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 3498,
+      "mean_delta": 6.52803955078125,
+      "top_concepts": [
+        {
+          "concept": "book",
+          "mean_delta": 65.2803955078125
+        },
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "cat",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 14130,
+      "mean_delta": 6.64072519938151,
+      "top_concepts": [
+        {
+          "concept": "beach",
+          "mean_delta": 66.40725199381511
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "cat",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 11875,
+      "mean_delta": 6.665711466471354,
+      "top_concepts": [
+        {
+          "concept": "beach",
+          "mean_delta": 66.65711466471355
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "cat",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 5601,
+      "mean_delta": 9.427148946126302,
+      "top_concepts": [
+        {
+          "concept": "cat",
+          "mean_delta": 55.964131673177086
+        },
+        {
+          "concept": "beach",
+          "mean_delta": 38.30735778808594
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 13038,
+      "mean_delta": 6.702326965332031,
+      "top_concepts": [
+        {
+          "concept": "beach",
+          "mean_delta": 67.02326965332031
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "cat",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 33574,
+      "mean_delta": 6.706581115722656,
+      "top_concepts": [
+        {
+          "concept": "cat",
+          "mean_delta": 67.06581115722656
+        },
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 15971,
+      "mean_delta": 6.739582824707031,
+      "top_concepts": [
+        {
+          "concept": "tree",
+          "mean_delta": 67.39582824707031
+        },
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 596,
+      "mean_delta": -6.738100179036459,
+      "top_concepts": [
+        {
+          "concept": "ocean",
+          "mean_delta": -32.928955078125
+        },
+        {
+          "concept": "mountain",
+          "mean_delta": 28.92974853515625
+        },
+        {
+          "concept": "tree",
+          "mean_delta": 27.65582275390625
+        }
+      ]
+    },
+    {
+      "feature_id": 514,
+      "mean_delta": 6.792274983723958,
+      "top_concepts": [
+        {
+          "concept": "beach",
+          "mean_delta": 67.92274983723958
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "cat",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 1103,
+      "mean_delta": 6.845590209960937,
+      "top_concepts": [
+        {
+          "concept": "book",
+          "mean_delta": 68.45590209960938
+        },
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "cat",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 14891,
+      "mean_delta": 6.856093343098959,
+      "top_concepts": [
+        {
+          "concept": "cat",
+          "mean_delta": 68.56093343098958
+        },
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 14568,
+      "mean_delta": 6.85950927734375,
+      "top_concepts": [
+        {
+          "concept": "book",
+          "mean_delta": 68.5950927734375
+        },
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "cat",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 332,
+      "mean_delta": -18.628023274739583,
+      "top_concepts": [
+        {
+          "concept": "cat",
+          "mean_delta": -48.024088541666664
+        },
+        {
+          "concept": "book",
+          "mean_delta": -32.882731119791664
+        },
+        {
+          "concept": "beach",
+          "mean_delta": -29.442342122395832
+        }
+      ]
+    },
+    {
+      "feature_id": 12383,
+      "mean_delta": 6.944370524088542,
+      "top_concepts": [
+        {
+          "concept": "fire",
+          "mean_delta": 69.44370524088542
+        },
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 12517,
+      "mean_delta": 6.972870890299479,
+      "top_concepts": [
+        {
+          "concept": "mountain",
+          "mean_delta": 69.7287089029948
+        },
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        }
+      ]
+    }
+  ],
+  "hit_predictive_features": [
+    {
+      "feature_id": 870,
+      "cohens_d": 1.2629053281299585,
+      "p_value": 7.169234227933474e-18,
+      "mean_hit": 83.59210423060826,
+      "mean_miss": 0.0,
+      "p_fdr": 5.950464409184783e-16
+    },
+    {
+      "feature_id": 7165,
+      "cohens_d": 1.2542938395161052,
+      "p_value": 1.1273976193892487e-17,
+      "mean_hit": 67.33287702287946,
+      "mean_miss": 0.0,
+      "p_fdr": 4.678700120465382e-16
+    },
+    {
+      "feature_id": 147,
+      "cohens_d": 1.176239863534687,
+      "p_value": 5.341266558054681e-16,
+      "mean_hit": 107.94869559151786,
+      "mean_miss": 23.593596085258152,
+      "p_fdr": 1.4777504143951284e-14
+    },
+    {
+      "feature_id": 5715,
+      "cohens_d": -1.0172661423949465,
+      "p_value": 1.377874578469084e-12,
+      "mean_hit": -48.107391357421875,
+      "mean_miss": 6.0871449346127715,
+      "p_fdr": 2.8590897503233494e-11
+    },
+    {
+      "feature_id": 254,
+      "cohens_d": -0.9844317268310884,
+      "p_value": 5.7190672545225165e-12,
+      "mean_hit": -100.18343680245536,
+      "mean_miss": -23.25870945142663,
+      "p_fdr": 9.493651642507379e-11
+    },
+    {
+      "feature_id": 10900,
+      "cohens_d": 0.852792048527073,
+      "p_value": 1.724525842854086e-09,
+      "mean_hit": 47.428880964006694,
+      "mean_miss": 7.310418170431386,
+      "p_fdr": 2.3855940826148188e-08
+    },
+    {
+      "feature_id": 8515,
+      "cohens_d": 0.8484142639566031,
+      "p_value": 2.2149798572020586e-09,
+      "mean_hit": 49.947117396763396,
+      "mean_miss": 0.0,
+      "p_fdr": 2.6263332592538694e-08
+    },
+    {
+      "feature_id": 525,
+      "cohens_d": 0.8484142639566031,
+      "p_value": 2.2149798572020756e-09,
+      "mean_hit": 54.55855015345982,
+      "mean_miss": 0.0,
+      "p_fdr": 2.2980416018471534e-08
+    },
+    {
+      "feature_id": 14082,
+      "cohens_d": 0.848414263956603,
+      "p_value": 2.214979857202092e-09,
+      "mean_hit": 40.40569632393973,
+      "mean_miss": 0.0,
+      "p_fdr": 1.5320277345647805e-08
+    },
+    {
+      "feature_id": 6052,
+      "cohens_d": 0.8484142639566029,
+      "p_value": 2.21497985720211e-09,
+      "mean_hit": 32.53240966796875,
+      "mean_miss": 0.0,
+      "p_fdr": 1.0213518230431952e-08
+    },
+    {
+      "feature_id": 3329,
+      "cohens_d": 0.8484142639566029,
+      "p_value": 2.2149798572020756e-09,
+      "mean_hit": 48.633409772600444,
+      "mean_miss": 0.0,
+      "p_fdr": 1.8384332814777226e-08
+    },
+    {
+      "feature_id": 1760,
+      "cohens_d": 0.8484142639566029,
+      "p_value": 2.2149798572020756e-09,
+      "mean_hit": 56.437081473214285,
+      "mean_miss": 0.0,
+      "p_fdr": 2.0427036460863585e-08
+    },
+    {
+      "feature_id": 12863,
+      "cohens_d": 0.8484142639566028,
+      "p_value": 2.214979857202092e-09,
+      "mean_hit": 27.78389630998884,
+      "mean_miss": 0.0,
+      "p_fdr": 1.3131666296269545e-08
+    },
+    {
+      "feature_id": 15971,
+      "cohens_d": 0.8484142639566028,
+      "p_value": 2.2149798572020756e-09,
+      "mean_hit": 28.883926391601562,
+      "mean_miss": 0.0,
+      "p_fdr": 1.6713029831615662e-08
+    },
+    {
+      "feature_id": 33328,
+      "cohens_d": 0.8484142639566028,
+      "p_value": 2.214979857202092e-09,
+      "mean_hit": 42.43863786969866,
+      "mean_miss": 0.0,
+      "p_fdr": 1.4141794472905665e-08
+    },
+    {
+      "feature_id": 314,
+      "cohens_d": 0.8484142639566028,
+      "p_value": 2.21497985720211e-09,
+      "mean_hit": 42.807486397879465,
+      "mean_miss": 0.0,
+      "p_fdr": 1.081431342045736e-08
+    },
+    {
+      "feature_id": 6366,
+      "cohens_d": 0.8484142639566028,
+      "p_value": 2.214979857202092e-09,
+      "mean_hit": 44.47027587890625,
+      "mean_miss": 0.0,
+      "p_fdr": 1.1490208009235853e-08
+    },
+    {
+      "feature_id": 2191,
+      "cohens_d": 0.8484142639566027,
+      "p_value": 2.214979857202092e-09,
+      "mean_hit": 36.51869855608259,
+      "mean_miss": 0.0,
+      "p_fdr": 1.2256221876518244e-08
+    },
+    {
+      "feature_id": 19244,
+      "cohens_d": 0.8484142639566027,
+      "p_value": 2.21497985720211e-09,
+      "mean_hit": 38.07047380719866,
+      "mean_miss": 0.0,
+      "p_fdr": 9.675964639356586e-09
+    },
+    {
+      "feature_id": 1002,
+      "cohens_d": 0.8484142639566027,
+      "p_value": 2.21497985720211e-09,
+      "mean_hit": 41.756173270089285,
+      "mean_miss": 0.0,
+      "p_fdr": 9.192166407388757e-09
+    }
+  ]
+}
