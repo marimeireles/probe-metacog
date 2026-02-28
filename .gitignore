@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environment
+.venv/
+
+# Results data
+results/
+results_27b/
+results_27b_t1/
+results_t1/
+
+# Slurm logs
+slurm/
+
+# uv lock file
+uv.lock
