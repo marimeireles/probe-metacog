@@ -4,21 +4,23 @@
 #SBATCH --gres=gpu:2
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=64G
-#SBATCH --time=6:00:00
+#SBATCH --time=12:00:00
 #SBATCH --output=slurm/sae-27b-%j.out
 #SBATCH --error=slurm/sae-27b-%j.err
 
 set -e
 
-# Usage: sbatch submit_sae_analysis_27b.sh [--smoke] [--tag TAG]
+# Usage: sbatch submit_sae_analysis_27b.sh [--smoke] [--tag TAG] [--prompt detection|neutral]
 
 SMOKE_FLAG=""
 TAG_FLAG=""
+PROMPT_FLAG=""
 
 while [[ $# -gt 0 ]]; do
     case $1 in
         --smoke) SMOKE_FLAG="--smoke"; shift ;;
         --tag) TAG_FLAG="--tag $2"; shift 2 ;;
+        --prompt) PROMPT_FLAG="--prompt $2"; shift 2 ;;
         *) shift ;;
     esac
 done
@@ -29,6 +31,7 @@ echo "Node: $SLURM_NODELIST"
 echo "GPU: $(nvidia-smi -L 2>/dev/null || echo 'N/A')"
 echo "Date: $(date)"
 echo "Smoke: ${SMOKE_FLAG:-no}"
+echo "Prompt: ${PROMPT_FLAG:-detection}"
 echo "======================================="
 
 # Environment
@@ -48,7 +51,7 @@ echo ""
 echo "Starting SAE analysis (27B)..."
 echo ""
 
-uv run python run_sae_analysis.py --model 27b $SMOKE_FLAG $TAG_FLAG
+uv run python run_sae_analysis.py --model 27b $SMOKE_FLAG $TAG_FLAG $PROMPT_FLAG
 
 echo ""
 echo "===== SAE analysis (27B) complete: $(date) ====="

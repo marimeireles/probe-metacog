@@ -66,17 +66,19 @@ class SimpleSAE:
         JumpReLU: f_i = pre_i * (pre_i > threshold_i)
         where pre_i = x @ w_enc_i + b_enc_i
         """
+        x = x.to(self.device)
         pre = x.float() @ self.w_enc.float() + self.b_enc.float()
         # JumpReLU: zero out features below their threshold
         return pre * (pre > self.threshold.float())
 
     def decode(self, f):
         """f: [batch, d_sae] -> [batch, d_model] (reconstruction)."""
+        f = f.to(self.device)
         return f.float() @ self.w_dec.float() + self.b_dec.float()
 
     def reconstruction_error(self, x):
         """Compute L2 reconstruction error normalized by activation norm."""
-        x_float = x.float()
+        x_float = x.to(self.device).float()
         recon = self.decode(self.encode(x_float))
         error = (x_float - recon).norm(dim=-1)
         norm = x_float.norm(dim=-1)

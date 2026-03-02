@@ -1,0 +1,534 @@
+{
+  "n_trials": 300,
+  "n_unique_features_seen": 338,
+  "n_top_by_variance": 200,
+  "n_universal": 0,
+  "n_concept_specific": 77,
+  "n_hit_predictive": 52,
+  "hit_rate": 0.06666666666666667,
+  "universal_features": [],
+  "concept_specific_features": [
+    {
+      "feature_id": 153,
+      "mean_delta": 0.0,
+      "top_concepts": [
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "cat",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 154,
+      "mean_delta": 0.0,
+      "top_concepts": [
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "cat",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 155,
+      "mean_delta": 0.0,
+      "top_concepts": [
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "cat",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 156,
+      "mean_delta": 0.0,
+      "top_concepts": [
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "cat",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 157,
+      "mean_delta": 0.0,
+      "top_concepts": [
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "cat",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 158,
+      "mean_delta": 0.0,
+      "top_concepts": [
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "cat",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 159,
+      "mean_delta": 0.0,
+      "top_concepts": [
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "cat",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 160,
+      "mean_delta": 0.0,
+      "top_concepts": [
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "cat",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 161,
+      "mean_delta": 0.0,
+      "top_concepts": [
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "cat",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 162,
+      "mean_delta": 0.0,
+      "top_concepts": [
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "cat",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 163,
+      "mean_delta": 0.0,
+      "top_concepts": [
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "cat",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 164,
+      "mean_delta": 0.0,
+      "top_concepts": [
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "cat",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 165,
+      "mean_delta": 0.0,
+      "top_concepts": [
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "cat",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 166,
+      "mean_delta": 0.0,
+      "top_concepts": [
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "cat",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 167,
+      "mean_delta": 0.0,
+      "top_concepts": [
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "cat",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 168,
+      "mean_delta": 0.0,
+      "top_concepts": [
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "cat",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 169,
+      "mean_delta": 0.0,
+      "top_concepts": [
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "cat",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 170,
+      "mean_delta": 0.0,
+      "top_concepts": [
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "cat",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 171,
+      "mean_delta": 0.0,
+      "top_concepts": [
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "cat",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 172,
+      "mean_delta": 0.0,
+      "top_concepts": [
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "cat",
+          "mean_delta": 0.0
+        }
+      ]
+    }
+  ],
+  "hit_predictive_features": [
+    {
+      "feature_id": 174,
+      "cohens_d": 5.529616537874447,
+      "p_value": 7.1864689372470564e-71,
+      "mean_hit": 258.631103515625,
+      "mean_miss": 8.57777840750558,
+      "p_fdr": 3.7369638473684694e-69
+    },
+    {
+      "feature_id": 184,
+      "cohens_d": -4.084702946802798,
+      "p_value": 4.499900730956928e-48,
+      "mean_hit": -100.00973510742188,
+      "mean_miss": -1.5195050920758928,
+      "p_fdr": 1.1699741900488012e-46
+    },
+    {
+      "feature_id": 57,
+      "cohens_d": -3.7391864649864583,
+      "p_value": 8.073955337086122e-42,
+      "mean_hit": -219.1846160888672,
+      "mean_miss": 9.323108128138951,
+      "p_fdr": 1.3994855917615946e-40
+    },
+    {
+      "feature_id": 122,
+      "cohens_d": -2.80140329910159,
+      "p_value": 2.0786187988877284e-27,
+      "mean_hit": -183.2884521484375,
+      "mean_miss": -3.970493861607143,
+      "p_fdr": 2.702204438554047e-26
+    },
+    {
+      "feature_id": 1995,
+      "cohens_d": 2.571692639575933,
+      "p_value": 3.7000333367716254e-24,
+      "mean_hit": 28.010223388671875,
+      "mean_miss": 1.818331037248884,
+      "p_fdr": 3.8480346702424905e-23
+    },
+    {
+      "feature_id": 9294,
+      "cohens_d": -2.320408749572173,
+      "p_value": 2.7972493026207094e-20,
+      "mean_hit": -140.38294982910156,
+      "mean_miss": -7.860808236258371,
+      "p_fdr": 2.424282728937948e-19
+    },
+    {
+      "feature_id": 1296,
+      "cohens_d": 1.839638721343256,
+      "p_value": 4.5045789867162736e-14,
+      "mean_hit": 52.46527099609375,
+      "mean_miss": 0.9890921456473214,
+      "p_fdr": 3.3462586758463747e-13
+    },
+    {
+      "feature_id": 228,
+      "cohens_d": -1.8097494311602365,
+      "p_value": 1.5825587772679154e-13,
+      "mean_hit": -75.875,
+      "mean_miss": -0.7260654994419643,
+      "p_fdr": 1.028663205224145e-12
+    },
+    {
+      "feature_id": 823,
+      "cohens_d": -1.6051857497005728,
+      "p_value": 2.7527903079177204e-11,
+      "mean_hit": -29.57373046875,
+      "mean_miss": -5.815486363002232,
+      "p_fdr": 1.5905010667969052e-10
+    },
+    {
+      "feature_id": 538,
+      "cohens_d": -1.5624714717683028,
+      "p_value": 9.965886221312369e-11,
+      "mean_hit": -166.03857421875,
+      "mean_miss": 3.610194614955357,
+      "p_fdr": 5.182260835082433e-10
+    },
+    {
+      "feature_id": 243,
+      "cohens_d": 1.3982241485877807,
+      "p_value": 4.840424945552341e-09,
+      "mean_hit": 72.7109375,
+      "mean_miss": 5.211286272321429,
+      "p_fdr": 2.288200883352016e-08
+    },
+    {
+      "feature_id": 635,
+      "cohens_d": -1.347018081508408,
+      "p_value": 1.7675249986533534e-08,
+      "mean_hit": -61.80645751953125,
+      "mean_miss": -5.61627197265625,
+      "p_fdr": 7.659274994164532e-08
+    },
+    {
+      "feature_id": 2447,
+      "cohens_d": 1.1406196174671677,
+      "p_value": 1.5654019358857585e-06,
+      "mean_hit": 130.970458984375,
+      "mean_miss": 33.31292724609375,
+      "p_fdr": 6.261607743543033e-06
+    },
+    {
+      "feature_id": 397,
+      "cohens_d": -0.849216016748481,
+      "p_value": 0.0003186299878139557,
+      "mean_hit": -67.0888671875,
+      "mean_miss": 1.3063180106026786,
+      "p_fdr": 0.001183482811880407
+    },
+    {
+      "feature_id": 115,
+      "cohens_d": -0.6937651413536734,
+      "p_value": 0.0032125376271058704,
+      "mean_hit": -47.0323486328125,
+      "mean_miss": 11.536202566964286,
+      "p_fdr": 0.01113679710730035
+    },
+    {
+      "feature_id": 802,
+      "cohens_d": -0.6303470433687396,
+      "p_value": 0.007134810986986634,
+      "mean_hit": -15.64093017578125,
+      "mean_miss": 17.194727216448104,
+      "p_fdr": 0.023188135707706562
+    },
+    {
+      "feature_id": 4342,
+      "cohens_d": -0.6197370167940275,
+      "p_value": 0.00800921249433342,
+      "mean_hit": -22.554824829101562,
+      "mean_miss": -3.911869594029018,
+      "p_fdr": 0.024498767629725755
+    },
+    {
+      "feature_id": 6319,
+      "cohens_d": -0.5392323131112626,
+      "p_value": 0.02071174472850037,
+      "mean_hit": 0.0,
+      "mean_miss": 134.36649431501115,
+      "p_fdr": 0.059833929215667735
+    },
+    {
+      "feature_id": 1877,
+      "cohens_d": -0.5382974099747119,
+      "p_value": 0.020931187768920372,
+      "mean_hit": 0.0,
+      "mean_miss": 122.23886544363839,
+      "p_fdr": 0.057285355999150495
+    },
+    {
+      "feature_id": 328,
+      "cohens_d": -0.500059036676181,
+      "p_value": 0.03183337573667684,
+      "mean_hit": 0.0,
+      "mean_miss": 38.513497488839285,
+      "p_fdr": 0.08276677691535979
+    }
+  ]
+}

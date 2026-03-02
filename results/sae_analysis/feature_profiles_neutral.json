@@ -1,0 +1,540 @@
+{
+  "n_trials": 300,
+  "n_unique_features_seen": 1012,
+  "n_top_by_variance": 200,
+  "n_universal": 1,
+  "n_concept_specific": 106,
+  "n_hit_predictive": 45,
+  "hit_rate": 0.17666666666666667,
+  "universal_features": [
+    {
+      "feature_id": 39,
+      "mean_delta": 32.76590291341146,
+      "frac_concepts_positive": 0.9
+    }
+  ],
+  "concept_specific_features": [
+    {
+      "feature_id": 47139,
+      "mean_delta": 5.129115702311198,
+      "top_concepts": [
+        {
+          "concept": "book",
+          "mean_delta": 31.219556681315105
+        },
+        {
+          "concept": "beach",
+          "mean_delta": 20.071600341796874
+        },
+        {
+          "concept": "cat",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 35909,
+      "mean_delta": 6.063783467610677,
+      "top_concepts": [
+        {
+          "concept": "mountain",
+          "mean_delta": 60.63783467610677
+        },
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 10692,
+      "mean_delta": 2.2918900553385417,
+      "top_concepts": [
+        {
+          "concept": "fire",
+          "mean_delta": 22.918900553385416
+        },
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 1850,
+      "mean_delta": 6.116958719889323,
+      "top_concepts": [
+        {
+          "concept": "ocean",
+          "mean_delta": 61.16958719889323
+        },
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 2191,
+      "mean_delta": 7.496320088704427,
+      "top_concepts": [
+        {
+          "concept": "mountain",
+          "mean_delta": 74.96320088704427
+        },
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 10067,
+      "mean_delta": 10.290177510579428,
+      "top_concepts": [
+        {
+          "concept": "book",
+          "mean_delta": 51.647909037272136
+        },
+        {
+          "concept": "guitar",
+          "mean_delta": 51.253866068522136
+        },
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 5418,
+      "mean_delta": -2.3783111572265625,
+      "top_concepts": [
+        {
+          "concept": "cat",
+          "mean_delta": 30.043778483072916
+        },
+        {
+          "concept": "ocean",
+          "mean_delta": -25.868873087565103
+        },
+        {
+          "concept": "rain",
+          "mean_delta": -13.246272786458333
+        }
+      ]
+    },
+    {
+      "feature_id": 1275,
+      "mean_delta": 7.787534383138021,
+      "top_concepts": [
+        {
+          "concept": "book",
+          "mean_delta": 77.8753438313802
+        },
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "cat",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 8121,
+      "mean_delta": 6.531410115559896,
+      "top_concepts": [
+        {
+          "concept": "guitar",
+          "mean_delta": 65.31410115559896
+        },
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 7447,
+      "mean_delta": 6.6111148071289065,
+      "top_concepts": [
+        {
+          "concept": "beach",
+          "mean_delta": 66.11114807128907
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "cat",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 35139,
+      "mean_delta": 6.687835693359375,
+      "top_concepts": [
+        {
+          "concept": "tree",
+          "mean_delta": 66.87835693359375
+        },
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 16310,
+      "mean_delta": 8.095767262776693,
+      "top_concepts": [
+        {
+          "concept": "cat",
+          "mean_delta": 80.95767262776693
+        },
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 973,
+      "mean_delta": -2.29791015625,
+      "top_concepts": [
+        {
+          "concept": "beach",
+          "mean_delta": -24.380110677083334
+        },
+        {
+          "concept": "coffee",
+          "mean_delta": 4.60849609375
+        },
+        {
+          "concept": "book",
+          "mean_delta": 2.930558268229167
+        }
+      ]
+    },
+    {
+      "feature_id": 1527,
+      "mean_delta": 2.5444854736328124,
+      "top_concepts": [
+        {
+          "concept": "fire",
+          "mean_delta": 25.444854736328125
+        },
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 14130,
+      "mean_delta": 8.220949910481771,
+      "top_concepts": [
+        {
+          "concept": "beach",
+          "mean_delta": 82.20949910481771
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "cat",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 56,
+      "mean_delta": 8.1683642578125,
+      "top_concepts": [
+        {
+          "concept": "guitar",
+          "mean_delta": 81.683642578125
+        },
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 8095,
+      "mean_delta": -8.947501424153646,
+      "top_concepts": [
+        {
+          "concept": "mountain",
+          "mean_delta": -31.44315388997396
+        },
+        {
+          "concept": "guitar",
+          "mean_delta": -28.150789388020833
+        },
+        {
+          "concept": "book",
+          "mean_delta": -27.997891743977863
+        }
+      ]
+    },
+    {
+      "feature_id": 64420,
+      "mean_delta": 2.4377592976888023,
+      "top_concepts": [
+        {
+          "concept": "guitar",
+          "mean_delta": 30.701678466796874
+        },
+        {
+          "concept": "coffee",
+          "mean_delta": 23.306094360351562
+        },
+        {
+          "concept": "cat",
+          "mean_delta": -9.92822519938151
+        }
+      ]
+    },
+    {
+      "feature_id": 596,
+      "mean_delta": -9.184183349609375,
+      "top_concepts": [
+        {
+          "concept": "ocean",
+          "mean_delta": -38.694277954101565
+        },
+        {
+          "concept": "guitar",
+          "mean_delta": -34.192195638020834
+        },
+        {
+          "concept": "mountain",
+          "mean_delta": 28.8943115234375
+        }
+      ]
+    },
+    {
+      "feature_id": 10673,
+      "mean_delta": 8.322316385904948,
+      "top_concepts": [
+        {
+          "concept": "cat",
+          "mean_delta": 83.22316385904948
+        },
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        }
+      ]
+    }
+  ],
+  "hit_predictive_features": [
+    {
+      "feature_id": 1221,
+      "cohens_d": 2.20912917454857,
+      "p_value": 2.0443358627005132e-36,
+      "mean_hit": 135.3445411538178,
+      "mean_miss": 6.244505600408021,
+      "p_fdr": 9.19951138215231e-35
+    },
+    {
+      "feature_id": 10067,
+      "cohens_d": 1.7162777086604186,
+      "p_value": 1.2251617769821235e-24,
+      "mean_hit": 58.246287795732606,
+      "mean_miss": 0.0,
+      "p_fdr": 2.756613998209778e-23
+    },
+    {
+      "feature_id": 14082,
+      "cohens_d": 1.493547004083601,
+      "p_value": 9.139324990694253e-20,
+      "mean_hit": 85.62189641988502,
+      "mean_miss": 1.0835169741981907,
+      "p_fdr": 1.370898748604138e-18
+    },
+    {
+      "feature_id": 414,
+      "cohens_d": -1.3041720039904037,
+      "p_value": 5.690356437308767e-16,
+      "mean_hit": -82.70283018867924,
+      "mean_miss": 16.274190678770243,
+      "p_fdr": 6.401650991972363e-15
+    },
+    {
+      "feature_id": 493,
+      "cohens_d": 1.159586389774379,
+      "p_value": 4.175878334551202e-13,
+      "mean_hit": 74.42542194870283,
+      "mean_miss": 0.565549780965334,
+      "p_fdr": 3.758290501096082e-12
+    },
+    {
+      "feature_id": 6052,
+      "cohens_d": 1.154274742074662,
+      "p_value": 5.256869870545293e-13,
+      "mean_hit": 48.43079822468308,
+      "mean_miss": 0.0,
+      "p_fdr": 3.94265240290897e-12
+    },
+    {
+      "feature_id": 2303,
+      "cohens_d": 1.154182686107429,
+      "p_value": 5.277320023957357e-13,
+      "mean_hit": 54.09039940024322,
+      "mean_miss": 0.0,
+      "p_fdr": 3.3925628725440154e-12
+    },
+    {
+      "feature_id": 4677,
+      "cohens_d": 1.1523578515593331,
+      "p_value": 5.699296831583007e-13,
+      "mean_hit": 82.63596905402417,
+      "mean_miss": 0.0,
+      "p_fdr": 3.2058544677654415e-12
+    },
+    {
+      "feature_id": 1275,
+      "cohens_d": 1.1465624260929772,
+      "p_value": 7.27265161627032e-13,
+      "mean_hit": 44.08038330078125,
+      "mean_miss": 0.0,
+      "p_fdr": 3.2726932273216437e-12
+    },
+    {
+      "feature_id": 525,
+      "cohens_d": 1.1462689296902684,
+      "p_value": 7.362837093782146e-13,
+      "mean_hit": 88.67046773658609,
+      "mean_miss": 0.0,
+      "p_fdr": 3.012069720183605e-12
+    },
+    {
+      "feature_id": 8095,
+      "cohens_d": -1.1444267987542351,
+      "p_value": 6.657419822299746e-13,
+      "mean_hit": -47.312890394678654,
+      "mean_miss": -0.7152519689397774,
+      "p_fdr": 3.328709911149873e-12
+    },
+    {
+      "feature_id": 56,
+      "cohens_d": 1.141987115508381,
+      "p_value": 8.811097135523391e-13,
+      "mean_hit": 46.236024100825475,
+      "mean_miss": 0.0,
+      "p_fdr": 3.304161425821272e-12
+    },
+    {
+      "feature_id": 123,
+      "cohens_d": 1.1288822923482875,
+      "p_value": 1.522378832543839e-12,
+      "mean_hit": 54.675990842423346,
+      "mean_miss": 0.0,
+      "p_fdr": 5.26977288188252e-12
+    },
+    {
+      "feature_id": 870,
+      "cohens_d": 1.1245754491147588,
+      "p_value": 1.6507509221736736e-12,
+      "mean_hit": 70.94136680746978,
+      "mean_miss": 4.782505112620983,
+      "p_fdr": 5.305985106986807e-12
+    },
+    {
+      "feature_id": 7165,
+      "cohens_d": 1.1149389537050156,
+      "p_value": 2.4731406193708995e-12,
+      "mean_hit": 56.80409672575177,
+      "mean_miss": 3.6551033050907766,
+      "p_fdr": 7.419421858112698e-12
+    },
+    {
+      "feature_id": 9122,
+      "cohens_d": 0.9982700562382105,
+      "p_value": 2.715628257680727e-10,
+      "mean_hit": 50.11660248378538,
+      "mean_miss": 1.138444537575911,
+      "p_fdr": 7.637704474727044e-10
+    },
+    {
+      "feature_id": 10673,
+      "cohens_d": 0.9895591173224707,
+      "p_value": 3.7728305755304997e-10,
+      "mean_hit": 42.33730618458874,
+      "mean_miss": 1.0235533926651064,
+      "p_fdr": 9.986904464639558e-10
+    },
+    {
+      "feature_id": 16310,
+      "cohens_d": 0.986620994256971,
+      "p_value": 4.2142679832812987e-10,
+      "mean_hit": 41.112973195201945,
+      "mean_miss": 1.011103641649007,
+      "p_fdr": 1.0535669958203248e-09
+    },
+    {
+      "feature_id": 810,
+      "cohens_d": 0.985329089083696,
+      "p_value": 4.422953500576554e-10,
+      "mean_hit": 126.86815024321933,
+      "mean_miss": 3.1540552054339575,
+      "p_fdr": 1.047541618557605e-09
+    },
+    {
+      "feature_id": 8121,
+      "cohens_d": 0.9336924096784189,
+      "p_value": 3.121362610578749e-09,
+      "mean_hit": 36.97024593713149,
+      "mean_miss": 0.0,
+      "p_fdr": 7.023065873802185e-09
+    }
+  ]
+}

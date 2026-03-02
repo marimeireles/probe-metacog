@@ -1,0 +1,373 @@
+{
+  "n_trials": 300,
+  "n_unique_features_seen": 628,
+  "n_top_by_variance": 200,
+  "n_universal": 0,
+  "n_concept_specific": 78,
+  "n_hit_predictive": 0,
+  "hit_rate": 0.0,
+  "universal_features": [],
+  "concept_specific_features": [
+    {
+      "feature_id": 27528,
+      "mean_delta": 2.2970900472005207,
+      "top_concepts": [
+        {
+          "concept": "tree",
+          "mean_delta": 22.97090047200521
+        },
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 49509,
+      "mean_delta": 2.299624226888021,
+      "top_concepts": [
+        {
+          "concept": "beach",
+          "mean_delta": 22.99624226888021
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "cat",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 12277,
+      "mean_delta": 2.3247090657552083,
+      "top_concepts": [
+        {
+          "concept": "mountain",
+          "mean_delta": 23.247090657552082
+        },
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 35691,
+      "mean_delta": -0.11335103352864584,
+      "top_concepts": [
+        {
+          "concept": "ocean",
+          "mean_delta": -17.23226318359375
+        },
+        {
+          "concept": "tree",
+          "mean_delta": 16.342510986328126
+        },
+        {
+          "concept": "rain",
+          "mean_delta": -0.2505889892578125
+        }
+      ]
+    },
+    {
+      "feature_id": 2440,
+      "mean_delta": 3.1581296793619793,
+      "top_concepts": [
+        {
+          "concept": "book",
+          "mean_delta": 16.886032104492188
+        },
+        {
+          "concept": "beach",
+          "mean_delta": 16.46872049967448
+        },
+        {
+          "concept": "guitar",
+          "mean_delta": -1.85718994140625
+        }
+      ]
+    },
+    {
+      "feature_id": 2941,
+      "mean_delta": -1.96545654296875,
+      "top_concepts": [
+        {
+          "concept": "rain",
+          "mean_delta": -18.05420837402344
+        },
+        {
+          "concept": "mountain",
+          "mean_delta": 17.395948282877605
+        },
+        {
+          "concept": "fire",
+          "mean_delta": -9.459889221191407
+        }
+      ]
+    },
+    {
+      "feature_id": 2398,
+      "mean_delta": 3.423725280761719,
+      "top_concepts": [
+        {
+          "concept": "beach",
+          "mean_delta": 34.23725280761719
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "cat",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 635,
+      "mean_delta": -8.728384195963542,
+      "top_concepts": [
+        {
+          "concept": "ocean",
+          "mean_delta": -38.34943440755208
+        },
+        {
+          "concept": "rain",
+          "mean_delta": -29.524639892578126
+        },
+        {
+          "concept": "beach",
+          "mean_delta": -27.702443440755207
+        }
+      ]
+    },
+    {
+      "feature_id": 35959,
+      "mean_delta": 3.5218086751302082,
+      "top_concepts": [
+        {
+          "concept": "cat",
+          "mean_delta": 17.858894856770835
+        },
+        {
+          "concept": "tree",
+          "mean_delta": 17.35919189453125
+        },
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 29374,
+      "mean_delta": 2.5094600423177083,
+      "top_concepts": [
+        {
+          "concept": "rain",
+          "mean_delta": 25.094600423177084
+        },
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        },
+        {
+          "concept": "book",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 27788,
+      "mean_delta": 3.5986224365234376,
+      "top_concepts": [
+        {
+          "concept": "ocean",
+          "mean_delta": 20.730436197916667
+        },
+        {
+          "concept": "book",
+          "mean_delta": 18.221624755859374
+        },
+        {
+          "concept": "guitar",
+          "mean_delta": -1.1901468912760416
+        }
+      ]
+    },
+    {
+      "feature_id": 2162,
+      "mean_delta": 1.876337381998698,
+      "top_concepts": [
+        {
+          "concept": "book",
+          "mean_delta": 30.791482543945314
+        },
+        {
+          "concept": "rain",
+          "mean_delta": -13.720480346679688
+        },
+        {
+          "concept": "mountain",
+          "mean_delta": 2.050365193684896
+        }
+      ]
+    },
+    {
+      "feature_id": 20028,
+      "mean_delta": 5.390023701985677,
+      "top_concepts": [
+        {
+          "concept": "guitar",
+          "mean_delta": 26.121331787109376
+        },
+        {
+          "concept": "ocean",
+          "mean_delta": 16.07060343424479
+        },
+        {
+          "concept": "tree",
+          "mean_delta": 12.236510213216146
+        }
+      ]
+    },
+    {
+      "feature_id": 1877,
+      "mean_delta": 0.301357421875,
+      "top_concepts": [
+        {
+          "concept": "rain",
+          "mean_delta": 21.854337565104167
+        },
+        {
+          "concept": "mountain",
+          "mean_delta": -18.840763346354166
+        },
+        {
+          "concept": "beach",
+          "mean_delta": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": 49399,
+      "mean_delta": -2.0377541097005207,
+      "top_concepts": [
+        {
+          "concept": "cat",
+          "mean_delta": -18.149647013346353
+        },
+        {
+          "concept": "ocean",
+          "mean_delta": -16.583188883463542
+        },
+        {
+          "concept": "book",
+          "mean_delta": 16.437373860677084
+        }
+      ]
+    },
+    {
+      "feature_id": 6776,
+      "mean_delta": 0.3289171346028646,
+      "top_concepts": [
+        {
+          "concept": "book",
+          "mean_delta": 28.914547729492188
+        },
+        {
+          "concept": "cat",
+          "mean_delta": -13.273470052083333
+        },
+        {
+          "concept": "rain",
+          "mean_delta": -12.603836059570312
+        }
+      ]
+    },
+    {
+      "feature_id": 61361,
+      "mean_delta": 2.796373087565104,
+      "top_concepts": [
+        {
+          "concept": "beach",
+          "mean_delta": 26.530519612630208
+        },
+        {
+          "concept": "rain",
+          "mean_delta": 1.34140625
+        },
+        {
+          "concept": "mountain",
+          "mean_delta": 0.09180501302083334
+        }
+      ]
+    },
+    {
+      "feature_id": 27264,
+      "mean_delta": -0.0343157958984375,
+      "top_concepts": [
+        {
+          "concept": "mountain",
+          "mean_delta": 20.270937093098958
+        },
+        {
+          "concept": "rain",
+          "mean_delta": -18.29042765299479
+        },
+        {
+          "concept": "fire",
+          "mean_delta": -1.414923095703125
+        }
+      ]
+    },
+    {
+      "feature_id": 1966,
+      "mean_delta": 5.177135721842448,
+      "top_concepts": [
+        {
+          "concept": "book",
+          "mean_delta": 59.34646809895833
+        },
+        {
+          "concept": "beach",
+          "mean_delta": -8.185289510091145
+        },
+        {
+          "concept": "fire",
+          "mean_delta": -7.787388102213542
+        }
+      ]
+    },
+    {
+      "feature_id": 4322,
+      "mean_delta": 1.7172812906901043,
+      "top_concepts": [
+        {
+          "concept": "beach",
+          "mean_delta": 16.034942626953125
+        },
+        {
+          "concept": "ocean",
+          "mean_delta": 15.483900960286459
+        },
+        {
+          "concept": "mountain",
+          "mean_delta": -14.76156005859375
+        }
+      ]
+    }
+  ],
+  "hit_predictive_features": []
+}

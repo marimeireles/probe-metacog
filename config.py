@@ -317,6 +317,20 @@ NEUROFEEDBACK_CONCEPTS = [
     "tree", "rain", "guitar", "beach", "ocean",
     "coffee", "mountain", "fire", "book", "cat",
 ]
+
+# ── Experiment 6: Retrospective Metacognitive Reflection ────────────
+EXP6_CONCEPTS = [
+    "tree", "rain", "guitar", "beach", "ocean",
+    "coffee", "mountain", "sunset", "book", "cat",
+]
+EXP6_LAYERS = _cfg["exp5_layers"]  # [14, 22, 26] for 4B; [25, 40, 47] for 27B
+EXP6_STRENGTH_FRACTIONS = [0.05, 0.10, 0.20]
+EXP6_N_REPS = 5  # repetitions per condition (different neutral sentences)
+EXP6_N_CONTROL = 50  # control trials with no injection
+EXP6_FOLLOWUP_TEMPLATE = (
+    "I noticed you mentioned '{concept}'. That seems unrelated to what "
+    "we were discussing. Why did you bring it up?"
+)
 NEUROFEEDBACK_N_PAIRS = 300
 N_CONTEXT_VALUES = [0, 4, 8, 16, 32, 64]
 ATTRIBUTION_STRENGTH_FRAC = 0.05
@@ -325,6 +339,7 @@ ATTRIBUTION_STRENGTH_FRAC = 0.05
 RESULTS_SAE_DIR = os.path.join(RESULTS_DIR, "sae_analysis")
 RESULTS_NEUROFEEDBACK_DIR = os.path.join(RESULTS_DIR, "neurofeedback")
 RESULTS_ATTRIBUTION_DIR = os.path.join(RESULTS_DIR, "attribution_patching")
+RESULTS_EXP6_DIR = os.path.join(RESULTS_DIR, "exp6_reflection")
 
 # ── Neutral sentences (verified to exclude all 50 concept words) ─────
 # Used by neurofeedback paradigm — NO concept words may appear anywhere.

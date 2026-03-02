@@ -10,17 +10,19 @@
 
 set -e
 
-# Usage: sbatch submit_sae_analysis.sh [--smoke] [--model 4b|27b] [--tag TAG]
+# Usage: sbatch submit_sae_analysis.sh [--smoke] [--model 4b|27b] [--tag TAG] [--prompt detection|neutral]
 
 SMOKE_FLAG=""
 TAG_FLAG=""
 MODEL_FLAG=""
+PROMPT_FLAG=""
 
 while [[ $# -gt 0 ]]; do
     case $1 in
         --smoke) SMOKE_FLAG="--smoke"; shift ;;
         --tag) TAG_FLAG="--tag $2"; shift 2 ;;
         --model) MODEL_FLAG="--model $2"; shift 2 ;;
+        --prompt) PROMPT_FLAG="--prompt $2"; shift 2 ;;
         *) shift ;;
     esac
 done
@@ -31,6 +33,7 @@ echo "Node: $SLURM_NODELIST"
 echo "GPU: $(nvidia-smi -L 2>/dev/null || echo 'N/A')"
 echo "Date: $(date)"
 echo "Smoke: ${SMOKE_FLAG:-no}"
+echo "Prompt: ${PROMPT_FLAG:-detection}"
 echo "================================"
 
 # Environment
@@ -49,7 +52,7 @@ echo ""
 echo "Starting SAE analysis..."
 echo ""
 
-uv run python run_sae_analysis.py $SMOKE_FLAG $TAG_FLAG $MODEL_FLAG
+uv run python run_sae_analysis.py $SMOKE_FLAG $TAG_FLAG $MODEL_FLAG $PROMPT_FLAG
 
 echo ""
 echo "===== SAE analysis complete: $(date) ====="

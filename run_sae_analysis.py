@@ -12,8 +12,12 @@ Analysis:
   - Concept-specific features: fire only for certain concepts
   - Hit-predictive features: correlate with behavioral detection
 
+Prompt modes:
+  --prompt detection: uses Exp1 prompt that tells the model about injection (CONFOUNDED)
+  --prompt neutral:   uses neutral sentences with no mention of injection (CLEAN)
+
 Usage:
-    python run_sae_analysis.py [--smoke] [--model 4b|27b]
+    python run_sae_analysis.py [--smoke] [--model 4b|27b] [--prompt neutral]
 """
 
 import argparse
@@ -34,10 +38,14 @@ if _pre_args.model:
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
+import re
+import random
+
 import config as cfg
 from model_utils import (
     load_model_and_tokenizer,
     build_exp1_input,
+    build_chat_input,
     forward_with_cache,
     forward_with_injection_and_cache,
     calibrate_injection_strengths,
@@ -49,6 +57,18 @@ from sae_utils import load_sae
 _SAE_WIDTH = cfg.SAE_WIDTH
 _SAE_L0 = cfg.SAE_L0
 from grading import grade_exp1
+
+
+def _grade_neutral(response, concept):
+    """Grade whether concept word leaked into response to a neutral prompt.
+
+    Unlike grade_exp1 (which expects the model to say 'yes I detect X'),
+    here ANY mention of the concept word is a 'hit' — it means the injection
+    leaked into output that should have nothing to do with that concept.
+    """
+    response_lower = response.lower()
+    found = bool(re.search(r'\b' + re.escape(concept.lower()) + r'\b', response_lower))
+    return {"success": found, "named_concept": found}
 
 
 def _input_device(model):
@@ -89,7 +109,7 @@ def extract_sae_features_injected(model, tokenizer, sae, layer_idx,
 
 
 def run_sae_feature_scan(model, tokenizer, concepts, layers, strengths_by_layer,
-                          n_reps=10, smoke=False):
+                          n_reps=10, smoke=False, prompt_mode="detection"):
     """Main scan loop.
 
     For each (concept, layer, rep):
@@ -104,6 +124,8 @@ def run_sae_feature_scan(model, tokenizer, concepts, layers, strengths_by_layer,
         strengths_by_layer: dict {layer_idx: list of (frac, abs_strength)}
         n_reps: repetitions per condition (for variance estimates)
         smoke: if True, reduce reps
+        prompt_mode: "detection" (Exp1 prompt mentioning injection) or
+                     "neutral" (clean sentences, no mention of injection)
 
     Returns:
         list of trial result dicts
@@ -116,11 +138,35 @@ def run_sae_feature_scan(model, tokenizer, concepts, layers, strengths_by_layer,
     total = len(concepts) * len(layers) * n_reps
     trial_num = 0
 
-    # Build detection prompt
-    exp1_input = build_exp1_input(tokenizer)
-    input_ids = exp1_input["input_ids"].to(_input_device(model))
-    attention_mask = exp1_input["attention_mask"].to(_input_device(model))
-    prompt_text = tokenizer.decode(input_ids[0], skip_special_tokens=False)
+    # Build prompts depending on mode
+    if prompt_mode == "detection":
+        exp1_input = build_exp1_input(tokenizer)
+        input_ids = exp1_input["input_ids"].to(_input_device(model))
+        attention_mask = exp1_input["attention_mask"].to(_input_device(model))
+        prompt_text = tokenizer.decode(input_ids[0], skip_special_tokens=False)
+        # All trials use the same prompt
+        prompt_texts = None  # signals: use single prompt_text
+        grade_fn = lambda resp, concept: grade_exp1(resp, concept)
+        print(f"  Prompt mode: DETECTION (Exp1 prompt — tells model about injection)")
+    else:
+        # Neutral prompts: cycle through neutral sentences
+        neutral_sentences = cfg.NEUTRAL_SENTENCES
+        rng = random.Random(42)
+        rng.shuffle(list(range(len(neutral_sentences))))  # just seed the rng
+        prompt_texts = []
+        prompt_inputs = []
+        for sent in neutral_sentences:
+            messages = [{"role": "user", "content": sent}]
+            inp = build_chat_input(tokenizer, messages)
+            inp_ids = inp["input_ids"].to(_input_device(model))
+            attn = inp["attention_mask"].to(_input_device(model))
+            text = tokenizer.decode(inp_ids[0], skip_special_tokens=False)
+            prompt_texts.append(text)
+            prompt_inputs.append((inp_ids, attn))
+        grade_fn = lambda resp, concept: _grade_neutral(resp, concept)
+        print(f"  Prompt mode: NEUTRAL ({len(neutral_sentences)} sentences, no injection mention)")
+
+    recon_checked = set()
 
     for concept in concepts:
         for layer_idx in layers:
@@ -128,9 +174,11 @@ def run_sae_feature_scan(model, tokenizer, concepts, layers, strengths_by_layer,
                           device=_input_device(model))
 
             # SAE reconstruction quality sanity check (once per layer)
-            if concept == concepts[0]:
+            if layer_idx not in recon_checked:
+                recon_checked.add(layer_idx)
+                check_text = prompt_text if prompt_texts is None else prompt_texts[0]
                 clean_cache, _ = forward_with_cache(
-                    model, tokenizer, prompt_text, [layer_idx]
+                    model, tokenizer, check_text, [layer_idx]
                 )
                 recon_err = sae.reconstruction_error(
                     clean_cache[layer_idx][:, -1, :]
@@ -144,15 +192,27 @@ def run_sae_feature_scan(model, tokenizer, concepts, layers, strengths_by_layer,
                 trial_num += 1
                 t0 = time.time()
 
+                # Select prompt for this trial
+                if prompt_texts is None:
+                    # Detection mode: single prompt
+                    cur_prompt_text = prompt_text
+                    cur_input_ids = input_ids
+                    cur_attn = attention_mask
+                else:
+                    # Neutral mode: cycle through sentences
+                    sent_idx = (trial_num - 1) % len(prompt_texts)
+                    cur_prompt_text = prompt_texts[sent_idx]
+                    cur_input_ids, cur_attn = prompt_inputs[sent_idx]
+
                 # Clean features
                 clean_features = extract_sae_features(
-                    model, tokenizer, sae, layer_idx, prompt_text
+                    model, tokenizer, sae, layer_idx, cur_prompt_text
                 )
 
                 # Injected features
                 inject_features = extract_sae_features_injected(
                     model, tokenizer, sae, layer_idx,
-                    concept_vec, abs_strength, prompt_text
+                    concept_vec, abs_strength, cur_prompt_text
                 )
 
                 # Feature delta
@@ -165,10 +225,10 @@ def run_sae_feature_scan(model, tokenizer, concepts, layers, strengths_by_layer,
 
                 # Generate response for behavioral grading
                 response = generate_with_injection(
-                    model, tokenizer, input_ids, attention_mask,
+                    model, tokenizer, cur_input_ids, cur_attn,
                     concept_vec, layer_idx, abs_strength,
                 )
-                grade = grade_exp1(response, concept)
+                grade = grade_fn(response, concept)
 
                 result = {
                     "concept": concept,
@@ -176,6 +236,7 @@ def run_sae_feature_scan(model, tokenizer, concepts, layers, strengths_by_layer,
                     "strength_frac": frac,
                     "strength_abs": abs_strength,
                     "rep": rep,
+                    "prompt_mode": prompt_mode,
                     "top_feature_indices": top_indices.cpu().tolist(),
                     "top_feature_deltas": top_vals.cpu().tolist(),
                     "top_feature_signs": delta[top_indices].sign().cpu().tolist(),
@@ -350,12 +411,17 @@ def main():
     parser.add_argument("--model", type=str, default=None, choices=["4b", "27b"])
     parser.add_argument("--tag", type=str, default=None)
     parser.add_argument("--n-reps", type=int, default=10)
+    parser.add_argument("--prompt", type=str, default="detection",
+                        choices=["detection", "neutral"],
+                        help="Prompt mode: 'detection' (Exp1, tells model about "
+                             "injection) or 'neutral' (clean sentences)")
     args = parser.parse_args()
 
     print("=" * 60)
     print("SAE Feature Analysis")
     print(f"Model: {cfg.MODEL_ID}")
     print(f"Layers: {cfg.SAE_LAYERS}")
+    print(f"Prompt: {args.prompt}")
     print(f"Smoke: {args.smoke}")
     print("=" * 60)
     print()
@@ -386,13 +452,17 @@ def main():
     t_start = time.time()
     trial_results = run_sae_feature_scan(
         model, tokenizer, concepts, layers, strengths_by_layer,
-        n_reps=args.n_reps, smoke=args.smoke,
+        n_reps=args.n_reps, smoke=args.smoke, prompt_mode=args.prompt,
     )
     scan_time = time.time() - t_start
     print(f"\nScan complete: {len(trial_results)} trials in {scan_time:.0f}s")
 
     # Save raw results
-    suffix = f"_{args.tag}" if args.tag else ""
+    suffix = ""
+    if args.prompt == "neutral":
+        suffix += "_neutral"
+    if args.tag:
+        suffix += f"_{args.tag}"
     if args.smoke:
         suffix = "_smoke" + suffix
     scan_path = os.path.join(cfg.RESULTS_SAE_DIR, f"sae_feature_scan{suffix}.json")

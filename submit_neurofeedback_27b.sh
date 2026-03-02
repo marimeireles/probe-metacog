@@ -4,7 +4,7 @@
 #SBATCH --gres=gpu:2
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=64G
-#SBATCH --time=8:00:00
+#SBATCH --time=12:00:00
 #SBATCH --output=slurm/nfb-27b-%j.out
 #SBATCH --error=slurm/nfb-27b-%j.err
 

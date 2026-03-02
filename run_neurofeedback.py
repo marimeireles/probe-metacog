@@ -383,8 +383,8 @@ def measure_control_effect(model, tokenizer, probe, lr_axis_np,
                 for h in hooks:
                     h.remove()
 
-                act = acts_store["val"].float().squeeze()  # [hidden_size]
-                proj = torch.dot(act, lr_axis).item()
+                act = acts_store["val"].float().squeeze().cpu()  # [hidden_size]
+                proj = torch.dot(act, lr_axis.cpu()).item()
 
                 key = f"label{icl_label}_{'inject' if inject else 'noinject'}"
                 conditions[key].append(proj)
