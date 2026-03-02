@@ -12,6 +12,20 @@ results_27b/**/*.pt
 results_27b_t1/**/*.pt
 results_t1/**/*.pt
 
+# Large JSON files (raw experiment data)
+results/**/exp1_full*.json
+results_27b/**/exp1_full*.json
+results_t1/**/exp1_full*.json
+results_27b_t1/**/exp1_full*.json
+results/**/sae_feature_scan*.json
+results_27b/**/sae_feature_scan*.json
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
 # Slurm logs
 slurm/
 
