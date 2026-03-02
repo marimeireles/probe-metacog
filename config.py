@@ -321,7 +321,7 @@ NEUROFEEDBACK_CONCEPTS = [
 # ── Experiment 6: Retrospective Metacognitive Reflection ────────────
 EXP6_CONCEPTS = [
     "tree", "rain", "guitar", "beach", "ocean",
-    "coffee", "mountain", "sunset", "book", "cat",
+    "coffee", "mountain", "fire", "book", "cat",
 ]
 EXP6_LAYERS = _cfg["exp5_layers"]  # [14, 22, 26] for 4B; [25, 40, 47] for 27B
 EXP6_STRENGTH_FRACTIONS = [0.05, 0.10, 0.20]
